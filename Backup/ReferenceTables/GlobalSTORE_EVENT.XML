@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<EVENTExport>
+  <xs:schema id="EVENTExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="EVENTExport" msdata:IsDataSet="true" msdata:MainDataTable="EVENT" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="EVENT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="EVNT_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="EVNT_SRC" type="xs:short" minOccurs="0" />
+                <xs:element name="EVNT_TYP" type="xs:short" minOccurs="0" />
+                <xs:element name="EVNT_STRT_DT" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="EVNT_END_DT" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="APRV_DT" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="PARNT_EVNT_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="STAT" type="xs:short" minOccurs="0" />
+                <xs:element name="PTAT" type="xs:short" minOccurs="0" />
+                <xs:element name="STAT_TS" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <EVENT>
+    <STR_ID>1</STR_ID>
+    <EVNT_ID>0</EVNT_ID>
+    <EVNT_SRC>1</EVNT_SRC>
+    <EVNT_TYP>1</EVNT_TYP>
+    <EVNT_STRT_DT>1900-01-01T00:00:00-08:00</EVNT_STRT_DT>
+    <EVNT_END_DT>1900-01-01T00:00:00-08:00</EVNT_END_DT>
+    <APRV_DT>1900-01-01T00:00:00-08:00</APRV_DT>
+    <DESCR>Expired</DESCR>
+    <STAT>1</STAT>
+    <PTAT>1</PTAT>
+    <STAT_TS>1900-01-01T00:00:00-08:00</STAT_TS>
+  </EVENT>
+  <EVENT>
+    <STR_ID>1</STR_ID>
+    <EVNT_ID>1</EVNT_ID>
+    <EVNT_SRC>1</EVNT_SRC>
+    <EVNT_TYP>1</EVNT_TYP>
+    <EVNT_STRT_DT>2000-01-01T00:00:00-08:00</EVNT_STRT_DT>
+    <EVNT_END_DT>2999-01-01T00:00:00-08:00</EVNT_END_DT>
+    <APRV_DT>2000-01-01T00:00:00-08:00</APRV_DT>
+    <DESCR>Active</DESCR>
+    <STAT>1</STAT>
+    <PTAT>1</PTAT>
+    <STAT_TS>2000-01-01T00:00:00-08:00</STAT_TS>
+  </EVENT>
+</EVENTExport>

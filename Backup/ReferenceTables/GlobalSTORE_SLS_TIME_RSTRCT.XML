@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<SLS_TIME_RSTRCTExport>
+  <xs:schema id="SLS_TIME_RSTRCTExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="SLS_TIME_RSTRCTExport" msdata:IsDataSet="true" msdata:MainDataTable="SLS_TIME_RSTRCT" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="SLS_TIME_RSTRCT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="RSTRCT_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="RSTRCT_STRT_DT" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="RSTRCT_STRT_TM" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="RSTRCT_END_DT" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="RSTRCT_END_TM" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MON_RSTRCT_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="TUES_RSTRCT_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="WED_RSTRCT_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="THURS_RSTRCT_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="FRI_RSTRCT_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="SAT_RSTRCT_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="SUN_RSTRCT_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="EFF_DT" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="END_DT" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</SLS_TIME_RSTRCTExport>

@@ -1,0 +1,64 @@
+<?xml version="1.0" standalone="yes"?>
+<TAX_AUTHORITYExport>
+  <xs:schema id="TAX_AUTHORITYExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="TAX_AUTHORITYExport" msdata:IsDataSet="true" msdata:MainDataTable="TAX_AUTHORITY" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TAX_AUTHORITY">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TAX_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="TAX_RATE" type="xs:double" minOccurs="0" />
+                <xs:element name="TAX_DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="TAX_POS_DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="TAX_TBL" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="TAX_RND_PREC" type="xs:double" minOccurs="0" />
+                <xs:element name="TAX_RND_MTHD_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="TAX_RND_PRNT_PREC" type="xs:double" minOccurs="0" />
+                <xs:element name="TAX_RND_PRNT_MTHD" type="xs:short" minOccurs="0" />
+                <xs:element name="TAX_TYP_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="CS_TXT_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="CS_POS_TXT_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="MIN_TAXABLE_AMT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MAX_TAXABLE_AMT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CS_ACTIVE_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="CS_RATE_TYPE_FG" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <TAX_AUTHORITY>
+    <TAX_CD>99</TAX_CD>
+    <TAX_RATE>0</TAX_RATE>
+    <TAX_DESCR>No Tax</TAX_DESCR>
+    <TAX_POS_DESCR>No Tax</TAX_POS_DESCR>
+    <TAX_RND_PREC>0.001</TAX_RND_PREC>
+    <TAX_RND_MTHD_CD>0</TAX_RND_MTHD_CD>
+    <TAX_RND_PRNT_PREC>0.001</TAX_RND_PRNT_PREC>
+    <TAX_RND_PRNT_MTHD>0</TAX_RND_PRNT_MTHD>
+    <TAX_TYP_CD>1</TAX_TYP_CD>
+    <CS_TXT_ID>801</CS_TXT_ID>
+    <CS_POS_TXT_ID>802</CS_POS_TXT_ID>
+    <MIN_TAXABLE_AMT>0.0000</MIN_TAXABLE_AMT>
+    <CS_ACTIVE_FG>-1</CS_ACTIVE_FG>
+    <CS_RATE_TYPE_FG>0</CS_RATE_TYPE_FG>
+  </TAX_AUTHORITY>
+  <TAX_AUTHORITY>
+    <TAX_CD>100</TAX_CD>
+    <TAX_RATE>0</TAX_RATE>
+    <TAX_DESCR>Car Wash Tax</TAX_DESCR>
+    <TAX_POS_DESCR>CW Tax</TAX_POS_DESCR>
+    <TAX_RND_PREC>0.001</TAX_RND_PREC>
+    <TAX_RND_MTHD_CD>0</TAX_RND_MTHD_CD>
+    <TAX_RND_PRNT_PREC>0.001</TAX_RND_PRNT_PREC>
+    <TAX_RND_PRNT_MTHD>0</TAX_RND_PRNT_MTHD>
+    <TAX_TYP_CD>1</TAX_TYP_CD>
+    <CS_TXT_ID>805</CS_TXT_ID>
+    <CS_POS_TXT_ID>806</CS_POS_TXT_ID>
+    <CS_ACTIVE_FG>1</CS_ACTIVE_FG>
+    <CS_RATE_TYPE_FG>0</CS_RATE_TYPE_FG>
+  </TAX_AUTHORITY>
+</TAX_AUTHORITYExport>

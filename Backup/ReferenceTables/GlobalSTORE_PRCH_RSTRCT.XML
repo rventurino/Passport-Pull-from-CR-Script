@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="yes"?>
+<PRCH_RSTRCTExport>
+  <xs:schema id="PRCH_RSTRCTExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="PRCH_RSTRCTExport" msdata:IsDataSet="true" msdata:MainDataTable="PRCH_RSTRCT" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PRCH_RSTRCT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PRCH_RSTRCT_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="EFF_DT" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="END_DT" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CS_ORDER_BY" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PRCH_RSTRCT>
+    <PRCH_RSTRCT_CD>0</PRCH_RSTRCT_CD>
+    <DESCR>RAFT Dummy Record</DESCR>
+    <EFF_DT>1996-10-15T00:00:00-07:00</EFF_DT>
+    <END_DT>1996-10-15T00:01:00-07:00</END_DT>
+    <CS_ORDER_BY>0</CS_ORDER_BY>
+  </PRCH_RSTRCT>
+  <PRCH_RSTRCT>
+    <PRCH_RSTRCT_CD>1</PRCH_RSTRCT_CD>
+    <DESCR>Minimum Seller Age</DESCR>
+    <EFF_DT>1996-10-15T00:00:00-07:00</EFF_DT>
+    <END_DT>2100-01-01T00:00:00-08:00</END_DT>
+    <CS_ORDER_BY>4</CS_ORDER_BY>
+  </PRCH_RSTRCT>
+  <PRCH_RSTRCT>
+    <PRCH_RSTRCT_CD>2</PRCH_RSTRCT_CD>
+    <DESCR>Minimum Buyer Age (verify)</DESCR>
+    <EFF_DT>1996-10-15T00:00:00-07:00</EFF_DT>
+    <END_DT>2100-01-01T00:00:00-08:00</END_DT>
+    <CS_ORDER_BY>2</CS_ORDER_BY>
+  </PRCH_RSTRCT>
+  <PRCH_RSTRCT>
+    <PRCH_RSTRCT_CD>3</PRCH_RSTRCT_CD>
+    <DESCR>Minimum Buyer Age (enter date)</DESCR>
+    <EFF_DT>1996-10-15T00:00:00-07:00</EFF_DT>
+    <END_DT>2100-01-01T00:00:00-08:00</END_DT>
+    <CS_ORDER_BY>2</CS_ORDER_BY>
+  </PRCH_RSTRCT>
+  <PRCH_RSTRCT>
+    <PRCH_RSTRCT_CD>4</PRCH_RSTRCT_CD>
+    <DESCR>Permit required (verify)</DESCR>
+    <EFF_DT>1996-10-15T00:00:00-07:00</EFF_DT>
+    <END_DT>2100-01-01T00:00:00-08:00</END_DT>
+    <CS_ORDER_BY>3</CS_ORDER_BY>
+  </PRCH_RSTRCT>
+  <PRCH_RSTRCT>
+    <PRCH_RSTRCT_CD>5</PRCH_RSTRCT_CD>
+    <DESCR>Permit required (enter ID)</DESCR>
+    <EFF_DT>1996-10-15T00:00:00-07:00</EFF_DT>
+    <END_DT>2100-01-01T00:00:00-08:00</END_DT>
+    <CS_ORDER_BY>3</CS_ORDER_BY>
+  </PRCH_RSTRCT>
+  <PRCH_RSTRCT>
+    <PRCH_RSTRCT_CD>6</PRCH_RSTRCT_CD>
+    <DESCR>Exclusive sale</DESCR>
+    <EFF_DT>1996-10-15T00:00:00-07:00</EFF_DT>
+    <END_DT>2100-01-01T00:00:00-08:00</END_DT>
+    <CS_ORDER_BY>1</CS_ORDER_BY>
+  </PRCH_RSTRCT>
+  <PRCH_RSTRCT>
+    <PRCH_RSTRCT_CD>7</PRCH_RSTRCT_CD>
+    <DESCR>Quantity Restriction</DESCR>
+    <EFF_DT>1996-10-15T00:00:00-07:00</EFF_DT>
+    <END_DT>2100-01-01T00:00:00-08:00</END_DT>
+    <CS_ORDER_BY>1</CS_ORDER_BY>
+  </PRCH_RSTRCT>
+  <PRCH_RSTRCT>
+    <PRCH_RSTRCT_CD>8</PRCH_RSTRCT_CD>
+    <DESCR>Self Checkout Restriction</DESCR>
+    <EFF_DT>1996-10-15T00:00:00-07:00</EFF_DT>
+    <END_DT>2100-01-01T00:00:00-08:00</END_DT>
+    <CS_ORDER_BY>1</CS_ORDER_BY>
+  </PRCH_RSTRCT>
+</PRCH_RSTRCTExport>

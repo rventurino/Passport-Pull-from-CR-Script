@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<g_fuel_catExport>
+  <xs:schema id="g_fuel_catExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="g_fuel_catExport" msdata:IsDataSet="true" msdata:MainDataTable="g_fuel_cat" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="g_fuel_cat">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DispenserID" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="LoopID" type="xs:short" minOccurs="0" />
+                <xs:element name="DeviceID" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="UseDSM" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DCB_Id" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="Side" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="IpAddress" type="xs:string" minOccurs="0" />
+                <xs:element name="IpPort" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</g_fuel_catExport>

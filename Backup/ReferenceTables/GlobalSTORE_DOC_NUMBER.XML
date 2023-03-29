@@ -1,0 +1,274 @@
+<?xml version="1.0" standalone="yes"?>
+<DOC_NUMBERExport>
+  <xs:schema id="DOC_NUMBERExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="DOC_NUMBERExport" msdata:IsDataSet="true" msdata:MainDataTable="DOC_NUMBER" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DOC_NUMBER">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DOC_TYP" type="xs:short" minOccurs="0" />
+                <xs:element name="NEXT_DOC_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="MAX_DGTS" type="xs:short" minOccurs="0" />
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="CDGT_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="PRFX" type="xs:string" minOccurs="0" />
+                <xs:element name="DESCR" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DOC_NUMBER>
+    <DOC_TYP>1</DOC_TYP>
+    <NEXT_DOC_ID>101</NEXT_DOC_ID>
+    <MAX_DGTS>4</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>33</CDGT_ID>
+    <PRFX>T</PRFX>
+    <DESCR>Transfers</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>2</DOC_TYP>
+    <NEXT_DOC_ID>101</NEXT_DOC_ID>
+    <MAX_DGTS>4</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>33</CDGT_ID>
+    <PRFX>X</PRFX>
+    <DESCR>Transfer Requests</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>3</DOC_TYP>
+    <NEXT_DOC_ID>101</NEXT_DOC_ID>
+    <MAX_DGTS>5</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>33</CDGT_ID>
+    <PRFX>O</PRFX>
+    <DESCR>Merchandise Orders</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>4</DOC_TYP>
+    <NEXT_DOC_ID>101</NEXT_DOC_ID>
+    <MAX_DGTS>5</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>33</CDGT_ID>
+    <PRFX>P</PRFX>
+    <DESCR>  Orders</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>5</DOC_TYP>
+    <NEXT_DOC_ID>101</NEXT_DOC_ID>
+    <MAX_DGTS>6</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>33</CDGT_ID>
+    <PRFX>R</PRFX>
+    <DESCR>Receipts</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>6</DOC_TYP>
+    <NEXT_DOC_ID>101</NEXT_DOC_ID>
+    <MAX_DGTS>4</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>33</CDGT_ID>
+    <PRFX>V</PRFX>
+    <DESCR>Return-to-Vendor</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>7</DOC_TYP>
+    <NEXT_DOC_ID>101</NEXT_DOC_ID>
+    <MAX_DGTS>4</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>33</CDGT_ID>
+    <PRFX>Q</PRFX>
+    <DESCR>RTV Requests</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>8</DOC_TYP>
+    <NEXT_DOC_ID>101</NEXT_DOC_ID>
+    <MAX_DGTS>4</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>33</CDGT_ID>
+    <PRFX>S</PRFX>
+    <DESCR>Ship Notices</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>9</DOC_TYP>
+    <NEXT_DOC_ID>100</NEXT_DOC_ID>
+    <MAX_DGTS>4</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>33</CDGT_ID>
+    <PRFX>I</PRFX>
+    <DESCR>Inventory Counts</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>10</DOC_TYP>
+    <NEXT_DOC_ID>1</NEXT_DOC_ID>
+    <MAX_DGTS>1</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <PRFX xml:space="preserve"> </PRFX>
+    <DESCR>Till IDs</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>11</DOC_TYP>
+    <NEXT_DOC_ID>1</NEXT_DOC_ID>
+    <MAX_DGTS>1</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <PRFX xml:space="preserve"> </PRFX>
+    <DESCR>POS Transactions</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>1000</DOC_TYP>
+    <NEXT_DOC_ID>17</NEXT_DOC_ID>
+    <MAX_DGTS>6</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <PRFX xml:space="preserve"> </PRFX>
+    <DESCR>Qualifier Type IDs</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>1001</DOC_TYP>
+    <NEXT_DOC_ID>6</NEXT_DOC_ID>
+    <MAX_DGTS>6</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <PRFX xml:space="preserve"> </PRFX>
+    <DESCR>Qualifier Group IDs</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>1002</DOC_TYP>
+    <NEXT_DOC_ID>1</NEXT_DOC_ID>
+    <MAX_DGTS>6</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <PRFX xml:space="preserve"> </PRFX>
+    <DESCR>Pricing Group IDs</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>1003</DOC_TYP>
+    <NEXT_DOC_ID>1</NEXT_DOC_ID>
+    <MAX_DGTS>6</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <PRFX xml:space="preserve"> </PRFX>
+    <DESCR>Mix &amp; Match Group IDs</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>1004</DOC_TYP>
+    <NEXT_DOC_ID>25</NEXT_DOC_ID>
+    <MAX_DGTS>4</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <PRFX xml:space="preserve"> </PRFX>
+    <DESCR>Restriction Group IDs</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>1005</DOC_TYP>
+    <NEXT_DOC_ID>8</NEXT_DOC_ID>
+    <MAX_DGTS>4</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <PRFX xml:space="preserve"> </PRFX>
+    <DESCR>Sales Time Restriction IDs</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>1006</DOC_TYP>
+    <NEXT_DOC_ID>1</NEXT_DOC_ID>
+    <MAX_DGTS>7</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <PRFX xml:space="preserve"> </PRFX>
+    <DESCR>DiscountMnt IDs</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>1009</DOC_TYP>
+    <NEXT_DOC_ID>90000000</NEXT_DOC_ID>
+    <MAX_DGTS>8</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <PRFX xml:space="preserve"> </PRFX>
+    <DESCR>Car Wash Discounts</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>1010</DOC_TYP>
+    <NEXT_DOC_ID>1</NEXT_DOC_ID>
+    <MAX_DGTS>7</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <DESCR>Discount Set IDS</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>1011</DOC_TYP>
+    <NEXT_DOC_ID>1</NEXT_DOC_ID>
+    <MAX_DGTS>8</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <PRFX xml:space="preserve"> </PRFX>
+    <DESCR>XML ReportSequenceID</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>1012</DOC_TYP>
+    <NEXT_DOC_ID>1</NEXT_DOC_ID>
+    <MAX_DGTS>8</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <PRFX xml:space="preserve"> </PRFX>
+    <DESCR>XML SAP Trans Ticket Number</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>1013</DOC_TYP>
+    <NEXT_DOC_ID>1</NEXT_DOC_ID>
+    <MAX_DGTS>8</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <PRFX xml:space="preserve"> </PRFX>
+    <DESCR>XML SAP Fin Ticket Number</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>1014</DOC_TYP>
+    <NEXT_DOC_ID>1</NEXT_DOC_ID>
+    <MAX_DGTS>8</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <PRFX xml:space="preserve"> </PRFX>
+    <DESCR>Scheduled Event ID</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>1015</DOC_TYP>
+    <NEXT_DOC_ID>1</NEXT_DOC_ID>
+    <MAX_DGTS>8</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <PRFX xml:space="preserve"> </PRFX>
+    <DESCR>Scheduled Event Log Message ID</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>1016</DOC_TYP>
+    <NEXT_DOC_ID>2</NEXT_DOC_ID>
+    <MAX_DGTS>6</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <PRFX xml:space="preserve"> </PRFX>
+    <DESCR>Event ID</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>1017</DOC_TYP>
+    <NEXT_DOC_ID>1</NEXT_DOC_ID>
+    <MAX_DGTS>8</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <PRFX />
+    <DESCR>Discount Group IDs</DESCR>
+  </DOC_NUMBER>
+  <DOC_NUMBER>
+    <DOC_TYP>1018</DOC_TYP>
+    <NEXT_DOC_ID>1</NEXT_DOC_ID>
+    <MAX_DGTS>8</MAX_DGTS>
+    <STR_ID>1</STR_ID>
+    <CDGT_ID>0</CDGT_ID>
+    <DESCR>Clock In Out Sequence</DESCR>
+  </DOC_NUMBER>
+</DOC_NUMBERExport>

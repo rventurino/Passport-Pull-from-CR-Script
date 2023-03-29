@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<g_fuel_servicelevelExport>
+  <xs:schema id="g_fuel_servicelevelExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="g_fuel_servicelevelExport" msdata:IsDataSet="true" msdata:MainDataTable="g_fuel_servicelevel" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="g_fuel_servicelevel">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ServiceLevelID" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="ServiceLevelName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <g_fuel_servicelevel>
+    <ServiceLevelID>1</ServiceLevelID>
+    <ServiceLevelName>SELF</ServiceLevelName>
+  </g_fuel_servicelevel>
+</g_fuel_servicelevelExport>

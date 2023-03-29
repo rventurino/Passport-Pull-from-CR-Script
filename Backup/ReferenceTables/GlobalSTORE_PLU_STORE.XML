@@ -1,0 +1,83 @@
+<?xml version="1.0" standalone="yes"?>
+<PLU_STOREExport>
+  <xs:schema id="PLU_STOREExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="PLU_STOREExport" msdata:IsDataSet="true" msdata:MainDataTable="PLU_STORE" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PLU_STORE">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PLU_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="TAXBLTY_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="DSPL_DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="RCPT_DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="STR_HIER_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="LN_ITM_CD" type="xs:int" minOccurs="0" />
+                <xs:element name="SLS_RSTRCT_GRP" type="xs:int" minOccurs="0" />
+                <xs:element name="DFLT_RTN_LOC_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="UOM" type="xs:string" minOccurs="0" />
+                <xs:element name="UNT_QTY" type="xs:double" minOccurs="0" />
+                <xs:element name="MD_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="QTY_RQRD_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="QTY_ALLOWD_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="SLS_AUTH_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="MNL_PRC_LVL" type="xs:short" minOccurs="0" />
+                <xs:element name="SRLZD_MDSE_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="FD_STMP_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="WIC_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="PERPET_INV_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="RTL_PRC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="UNT_CST" type="xs:double" minOccurs="0" />
+                <xs:element name="MIN_MDSE_AMT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MAX_MDSE_AMT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DFLT_SLS_LOC_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="ITM_MVMNT_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="RCPT_DESCR_1" type="xs:string" minOccurs="0" />
+                <xs:element name="RCPT_DESCR_2" type="xs:string" minOccurs="0" />
+                <xs:element name="RCPT_DESCR_3" type="xs:string" minOccurs="0" />
+                <xs:element name="RCPT_DESCR_4" type="xs:string" minOccurs="0" />
+                <xs:element name="PRC_MTHD" type="xs:short" minOccurs="0" />
+                <xs:element name="DEAL_QTY" type="xs:double" minOccurs="0" />
+                <xs:element name="DEAL_PRC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PRC_RQRD_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="UNT_PRC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="RTN_PRC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PRC_GRP_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="EVNT_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="MDSE_XREF_NO" type="xs:int" minOccurs="0" />
+                <xs:element name="PROMO_BGN_TS" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="PROMO_END_TS" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="PROMO_PRC_MTHD" type="xs:short" minOccurs="0" />
+                <xs:element name="PROMO_DEAL_QTY" type="xs:double" minOccurs="0" />
+                <xs:element name="PROMO_DEAL_PRC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PROMO_UNT_PRC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PROMO_EXCL_OFFER" type="xs:short" minOccurs="0" />
+                <xs:element name="PROMO_EXPN_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="PROMO_GL_ACCT" type="xs:string" minOccurs="0" />
+                <xs:element name="VAT_CD" type="xs:string" minOccurs="0" />
+                <xs:element name="GL_ACCT_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="ITM_GRP_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="NON_MDSE_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="PROMO_EXCL_DISC" type="xs:short" minOccurs="0" />
+                <xs:element name="DEAL_EXCL_OFFER" type="xs:short" minOccurs="0" />
+                <xs:element name="DEAL_EXCL_DISC" type="xs:short" minOccurs="0" />
+                <xs:element name="DEAL_MAX_QTY" type="xs:double" minOccurs="0" />
+                <xs:element name="PROMO_DEAL_MAX_QTY" type="xs:double" minOccurs="0" />
+                <xs:element name="LINK_ITM_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="PRCH_RSTRCT_GRP_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="PLU_QUAL_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="DFLT_DP_LOC_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="TND_RSTRCT_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="DISC_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="DLV_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="DFLT_DLV_LOC_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="DP_CD" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</PLU_STOREExport>

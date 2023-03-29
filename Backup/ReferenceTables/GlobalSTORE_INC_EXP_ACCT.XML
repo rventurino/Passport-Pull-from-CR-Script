@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<INC_EXP_ACCTExport>
+  <xs:schema id="INC_EXP_ACCTExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="INC_EXP_ACCTExport" msdata:IsDataSet="true" msdata:MainDataTable="INC_EXP_ACCT" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="INC_EXP_ACCT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="GL_ACCT_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="GL_ACCT_TYP" type="xs:short" minOccurs="0" />
+                <xs:element name="NM_TRAN_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="CS_TXT_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="CS_MSC_XFR_FG" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <INC_EXP_ACCT>
+    <GL_ACCT_ID>01</GL_ACCT_ID>
+    <DESCR>Vendor Payout</DESCR>
+    <GL_ACCT_TYP>2</GL_ACCT_TYP>
+    <NM_TRAN_FG>0</NM_TRAN_FG>
+    <CS_TXT_ID>3762</CS_TXT_ID>
+    <CS_MSC_XFR_FG>0</CS_MSC_XFR_FG>
+  </INC_EXP_ACCT>
+  <INC_EXP_ACCT>
+    <GL_ACCT_ID>10000</GL_ACCT_ID>
+    <DESCR>LocalAccounts PaidIn</DESCR>
+    <GL_ACCT_TYP>1</GL_ACCT_TYP>
+    <NM_TRAN_FG>0</NM_TRAN_FG>
+    <CS_TXT_ID>3585</CS_TXT_ID>
+    <CS_MSC_XFR_FG>0</CS_MSC_XFR_FG>
+  </INC_EXP_ACCT>
+  <INC_EXP_ACCT>
+    <GL_ACCT_ID>CASH_ACCEPTOR_CHGREF_DUE</GL_ACCT_ID>
+    <DESCR>CA Chg/Ref Due</DESCR>
+    <GL_ACCT_TYP>-1</GL_ACCT_TYP>
+    <NM_TRAN_FG>0</NM_TRAN_FG>
+    <CS_TXT_ID>54</CS_TXT_ID>
+    <CS_MSC_XFR_FG>0</CS_MSC_XFR_FG>
+  </INC_EXP_ACCT>
+</INC_EXP_ACCTExport>

@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<PRICE_GROUPExport>
+  <xs:schema id="PRICE_GROUPExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="PRICE_GROUPExport" msdata:IsDataSet="true" msdata:MainDataTable="PRICE_GROUP" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PRICE_GROUP">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PRC_GRP_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="CS_PRC_GRP_TYP_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="CS_TXT_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="CS_LIST_ID" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</PRICE_GROUPExport>

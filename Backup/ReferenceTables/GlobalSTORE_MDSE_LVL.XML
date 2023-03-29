@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<MDSE_LVLExport>
+  <xs:schema id="MDSE_LVLExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="MDSE_LVLExport" msdata:IsDataSet="true" msdata:MainDataTable="MDSE_LVL" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="MDSE_LVL">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MDSE_STRC_LVL" type="xs:short" minOccurs="0" />
+                <xs:element name="DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="PARNT_ALLOWD_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="ITM_ALLOWD_FG" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</MDSE_LVLExport>

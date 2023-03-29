@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes"?>
+<TAXABILITYExport>
+  <xs:schema id="TAXABILITYExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="TAXABILITYExport" msdata:IsDataSet="true" msdata:MainDataTable="TAXABILITY" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TAXABILITY">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TAXBLTY_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="CS_POS_DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="CS_POS_TXT_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="CS_TXT_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="CS_ACTIVE_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="CS_PRNT_GRP_CD_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="CS_PRNT_INDICATOR" type="xs:string" minOccurs="0" />
+                <xs:element name="CS_PRNT_RCPT_KEY" type="xs:string" minOccurs="0" />
+                <xs:element name="CS_FUEL_TAX_FG" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <TAXABILITY>
+    <TAXBLTY_CD>99</TAXBLTY_CD>
+    <DESCR>No Tax</DESCR>
+    <CS_POS_DESCR>No Tax</CS_POS_DESCR>
+    <CS_POS_TXT_ID>803</CS_POS_TXT_ID>
+    <CS_TXT_ID>804</CS_TXT_ID>
+    <CS_ACTIVE_FG>1</CS_ACTIVE_FG>
+    <CS_PRNT_GRP_CD_FG>1</CS_PRNT_GRP_CD_FG>
+    <CS_FUEL_TAX_FG>0</CS_FUEL_TAX_FG>
+  </TAXABILITY>
+  <TAXABILITY>
+    <TAXBLTY_CD>100</TAXBLTY_CD>
+    <DESCR>Car Wash Tax</DESCR>
+    <CS_POS_DESCR>Car Wash Tax</CS_POS_DESCR>
+    <CS_POS_TXT_ID>807</CS_POS_TXT_ID>
+    <CS_TXT_ID>808</CS_TXT_ID>
+    <CS_ACTIVE_FG>1</CS_ACTIVE_FG>
+    <CS_PRNT_GRP_CD_FG>0</CS_PRNT_GRP_CD_FG>
+    <CS_PRNT_INDICATOR>**</CS_PRNT_INDICATOR>
+    <CS_PRNT_RCPT_KEY>** = Tax included in price</CS_PRNT_RCPT_KEY>
+    <CS_FUEL_TAX_FG>0</CS_FUEL_TAX_FG>
+  </TAXABILITY>
+</TAXABILITYExport>

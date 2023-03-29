@@ -1,0 +1,163 @@
+<?xml version="1.0" standalone="yes"?>
+<DISCOUNTExport>
+  <xs:schema id="DISCOUNTExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="DISCOUNTExport" msdata:IsDataSet="true" msdata:MainDataTable="DISCOUNT" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DISCOUNT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DISC_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="AUX_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="DISC_MTHD" type="xs:short" minOccurs="0" />
+                <xs:element name="DISC_VALUE" type="xs:double" minOccurs="0" />
+                <xs:element name="EVNT_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="DISC_ACCT" type="xs:string" minOccurs="0" />
+                <xs:element name="DISC_CLSS_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="DISC_ITM_LMT" type="xs:double" minOccurs="0" />
+                <xs:element name="PROMO_BGN_TM" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="PROMO_END_TM" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MON_EXCL_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="TUES_EXCL_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="WED_EXCL_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="THURS_EXCL_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="FRI_EXCL_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="SAT_EXCL_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="SUN_EXCL_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="MAX_DISC_AMT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DISC_SET_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="DISC_TRAN_CNT" type="xs:short" minOccurs="0" />
+                <xs:element name="UNT_SPEND_AMT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CS_TXT_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="CS_MAX_AMT_OFF" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CS_MAX_PCT_OFF" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CS_LUMP_SUM_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="CS_NACS_DISC_CD" type="xs:int" minOccurs="0" />
+                <xs:element name="CS_PRORATE_TYPE" type="xs:short" minOccurs="0" />
+                <xs:element name="CS_PROMO_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="CS_ADJUST_TAX_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="BESTDEAL_EXCL_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="BESTDEAL_ITEMDISC_FG" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DISCOUNT>
+    <DISC_ID>10000000</DISC_ID>
+    <STR_ID>1</STR_ID>
+    <AUX_CD>0</AUX_CD>
+    <DESCR>CRIND Discount</DESCR>
+    <DISC_MTHD>1</DISC_MTHD>
+    <DISC_VALUE>0</DISC_VALUE>
+    <EVNT_ID>1</EVNT_ID>
+    <DISC_CLSS_ID>1002</DISC_CLSS_ID>
+    <DISC_ITM_LMT>0</DISC_ITM_LMT>
+    <MON_EXCL_FG>0</MON_EXCL_FG>
+    <TUES_EXCL_FG>0</TUES_EXCL_FG>
+    <WED_EXCL_FG>0</WED_EXCL_FG>
+    <THURS_EXCL_FG>0</THURS_EXCL_FG>
+    <FRI_EXCL_FG>0</FRI_EXCL_FG>
+    <SAT_EXCL_FG>0</SAT_EXCL_FG>
+    <SUN_EXCL_FG>0</SUN_EXCL_FG>
+    <MAX_DISC_AMT>0.0000</MAX_DISC_AMT>
+    <DISC_SET_ID>0</DISC_SET_ID>
+    <DISC_TRAN_CNT>0</DISC_TRAN_CNT>
+    <CS_MAX_AMT_OFF>0.0000</CS_MAX_AMT_OFF>
+    <CS_MAX_PCT_OFF>0.0000</CS_MAX_PCT_OFF>
+    <CS_LUMP_SUM_FG>0</CS_LUMP_SUM_FG>
+    <CS_NACS_DISC_CD>12</CS_NACS_DISC_CD>
+    <CS_ADJUST_TAX_FG>0</CS_ADJUST_TAX_FG>
+    <BESTDEAL_EXCL_FG>1</BESTDEAL_EXCL_FG>
+    <BESTDEAL_ITEMDISC_FG>1</BESTDEAL_ITEMDISC_FG>
+  </DISCOUNT>
+  <DISCOUNT>
+    <DISC_ID>10000001</DISC_ID>
+    <STR_ID>1</STR_ID>
+    <AUX_CD>0</AUX_CD>
+    <DESCR>Loyalty Token Redemption</DESCR>
+    <DISC_MTHD>1</DISC_MTHD>
+    <DISC_VALUE>0</DISC_VALUE>
+    <EVNT_ID>1</EVNT_ID>
+    <DISC_CLSS_ID>1999</DISC_CLSS_ID>
+    <DISC_ITM_LMT>0</DISC_ITM_LMT>
+    <MON_EXCL_FG>0</MON_EXCL_FG>
+    <TUES_EXCL_FG>0</TUES_EXCL_FG>
+    <WED_EXCL_FG>0</WED_EXCL_FG>
+    <THURS_EXCL_FG>0</THURS_EXCL_FG>
+    <FRI_EXCL_FG>0</FRI_EXCL_FG>
+    <SAT_EXCL_FG>0</SAT_EXCL_FG>
+    <SUN_EXCL_FG>0</SUN_EXCL_FG>
+    <MAX_DISC_AMT>0.0000</MAX_DISC_AMT>
+    <DISC_SET_ID>0</DISC_SET_ID>
+    <DISC_TRAN_CNT>0</DISC_TRAN_CNT>
+    <CS_TXT_ID>77</CS_TXT_ID>
+    <CS_MAX_AMT_OFF>0.0000</CS_MAX_AMT_OFF>
+    <CS_MAX_PCT_OFF>0.0000</CS_MAX_PCT_OFF>
+    <CS_LUMP_SUM_FG>0</CS_LUMP_SUM_FG>
+    <CS_NACS_DISC_CD>9</CS_NACS_DISC_CD>
+    <CS_ADJUST_TAX_FG>0</CS_ADJUST_TAX_FG>
+    <BESTDEAL_EXCL_FG>1</BESTDEAL_EXCL_FG>
+    <BESTDEAL_ITEMDISC_FG>1</BESTDEAL_ITEMDISC_FG>
+  </DISCOUNT>
+  <DISCOUNT>
+    <DISC_ID>10000002</DISC_ID>
+    <STR_ID>1</STR_ID>
+    <AUX_CD>0</AUX_CD>
+    <DESCR>Instant Reward</DESCR>
+    <DISC_MTHD>1</DISC_MTHD>
+    <DISC_VALUE>0</DISC_VALUE>
+    <EVNT_ID>1</EVNT_ID>
+    <DISC_ACCT />
+    <DISC_CLSS_ID>1999</DISC_CLSS_ID>
+    <DISC_ITM_LMT>0</DISC_ITM_LMT>
+    <MON_EXCL_FG>0</MON_EXCL_FG>
+    <TUES_EXCL_FG>0</TUES_EXCL_FG>
+    <WED_EXCL_FG>0</WED_EXCL_FG>
+    <THURS_EXCL_FG>0</THURS_EXCL_FG>
+    <FRI_EXCL_FG>0</FRI_EXCL_FG>
+    <SAT_EXCL_FG>0</SAT_EXCL_FG>
+    <SUN_EXCL_FG>0</SUN_EXCL_FG>
+    <MAX_DISC_AMT>0.0000</MAX_DISC_AMT>
+    <DISC_SET_ID>0</DISC_SET_ID>
+    <DISC_TRAN_CNT>0</DISC_TRAN_CNT>
+    <CS_TXT_ID>78</CS_TXT_ID>
+    <CS_MAX_AMT_OFF>0.0000</CS_MAX_AMT_OFF>
+    <CS_MAX_PCT_OFF>0.0000</CS_MAX_PCT_OFF>
+    <CS_LUMP_SUM_FG>0</CS_LUMP_SUM_FG>
+    <CS_NACS_DISC_CD>9</CS_NACS_DISC_CD>
+    <CS_ADJUST_TAX_FG>0</CS_ADJUST_TAX_FG>
+    <BESTDEAL_EXCL_FG>1</BESTDEAL_EXCL_FG>
+    <BESTDEAL_ITEMDISC_FG>1</BESTDEAL_ITEMDISC_FG>
+  </DISCOUNT>
+  <DISCOUNT>
+    <DISC_ID>99999999</DISC_ID>
+    <STR_ID>1</STR_ID>
+    <DESCR>Store Coupon</DESCR>
+    <DISC_MTHD>9</DISC_MTHD>
+    <DISC_VALUE>0</DISC_VALUE>
+    <EVNT_ID>1</EVNT_ID>
+    <DISC_ACCT />
+    <DISC_CLSS_ID>1000</DISC_CLSS_ID>
+    <MON_EXCL_FG>0</MON_EXCL_FG>
+    <TUES_EXCL_FG>0</TUES_EXCL_FG>
+    <WED_EXCL_FG>0</WED_EXCL_FG>
+    <THURS_EXCL_FG>0</THURS_EXCL_FG>
+    <FRI_EXCL_FG>0</FRI_EXCL_FG>
+    <SAT_EXCL_FG>0</SAT_EXCL_FG>
+    <SUN_EXCL_FG>0</SUN_EXCL_FG>
+    <DISC_SET_ID>0</DISC_SET_ID>
+    <CS_TXT_ID>76</CS_TXT_ID>
+    <CS_MAX_AMT_OFF>50.0000</CS_MAX_AMT_OFF>
+    <CS_MAX_PCT_OFF>0.0000</CS_MAX_PCT_OFF>
+    <CS_LUMP_SUM_FG>0</CS_LUMP_SUM_FG>
+    <CS_NACS_DISC_CD>12</CS_NACS_DISC_CD>
+    <CS_ADJUST_TAX_FG>0</CS_ADJUST_TAX_FG>
+    <BESTDEAL_EXCL_FG>1</BESTDEAL_EXCL_FG>
+    <BESTDEAL_ITEMDISC_FG>0</BESTDEAL_ITEMDISC_FG>
+  </DISCOUNT>
+</DISCOUNTExport>

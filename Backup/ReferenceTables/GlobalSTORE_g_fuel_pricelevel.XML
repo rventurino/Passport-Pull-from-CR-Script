@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<g_fuel_pricelevelExport>
+  <xs:schema id="g_fuel_pricelevelExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="g_fuel_pricelevelExport" msdata:IsDataSet="true" msdata:MainDataTable="g_fuel_pricelevel" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="g_fuel_pricelevel">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PriceLevelID" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="PriceLevelName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <g_fuel_pricelevel>
+    <PriceLevelID>1</PriceLevelID>
+    <PriceLevelName>CASH</PriceLevelName>
+  </g_fuel_pricelevel>
+  <g_fuel_pricelevel>
+    <PriceLevelID>2</PriceLevelID>
+    <PriceLevelName>CREDIT</PriceLevelName>
+  </g_fuel_pricelevel>
+</g_fuel_pricelevelExport>

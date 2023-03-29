@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="yes"?>
+<PERMISSION_GROUPExport>
+  <xs:schema id="PERMISSION_GROUPExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="PERMISSION_GROUPExport" msdata:IsDataSet="true" msdata:MainDataTable="PERMISSION_GROUP" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PERMISSION_GROUP">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="GRP_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="GRP_DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="PERM_QUAL_CD" type="xs:string" minOccurs="0" />
+                <xs:element name="SECURITY_LEVEL" type="xs:short" minOccurs="0" />
+                <xs:element name="DESCR_CS_TXT_ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PERMISSION_GROUP>
+    <GRP_ID>99</GRP_ID>
+    <GRP_DESCR>SuperUser</GRP_DESCR>
+    <SECURITY_LEVEL>99</SECURITY_LEVEL>
+    <DESCR_CS_TXT_ID>91</DESCR_CS_TXT_ID>
+  </PERMISSION_GROUP>
+  <PERMISSION_GROUP>
+    <GRP_ID>10000</GRP_ID>
+    <GRP_DESCR>CrindServers</GRP_DESCR>
+    <SECURITY_LEVEL>100</SECURITY_LEVEL>
+    <DESCR_CS_TXT_ID>92</DESCR_CS_TXT_ID>
+  </PERMISSION_GROUP>
+  <PERMISSION_GROUP>
+    <GRP_ID>10002</GRP_ID>
+    <GRP_DESCR>Owner</GRP_DESCR>
+    <SECURITY_LEVEL>90</SECURITY_LEVEL>
+    <DESCR_CS_TXT_ID>3701</DESCR_CS_TXT_ID>
+  </PERMISSION_GROUP>
+  <PERMISSION_GROUP>
+    <GRP_ID>10003</GRP_ID>
+    <GRP_DESCR>Manager</GRP_DESCR>
+    <SECURITY_LEVEL>70</SECURITY_LEVEL>
+    <DESCR_CS_TXT_ID>3702</DESCR_CS_TXT_ID>
+  </PERMISSION_GROUP>
+  <PERMISSION_GROUP>
+    <GRP_ID>10004</GRP_ID>
+    <GRP_DESCR>Supervisor</GRP_DESCR>
+    <SECURITY_LEVEL>50</SECURITY_LEVEL>
+    <DESCR_CS_TXT_ID>3703</DESCR_CS_TXT_ID>
+  </PERMISSION_GROUP>
+  <PERMISSION_GROUP>
+    <GRP_ID>10005</GRP_ID>
+    <GRP_DESCR>Cashier</GRP_DESCR>
+    <SECURITY_LEVEL>30</SECURITY_LEVEL>
+    <DESCR_CS_TXT_ID>3704</DESCR_CS_TXT_ID>
+  </PERMISSION_GROUP>
+</PERMISSION_GROUPExport>

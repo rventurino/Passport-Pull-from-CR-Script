@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<PRCH_RSTRCT_XREFExport>
+  <xs:schema id="PRCH_RSTRCT_XREFExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="PRCH_RSTRCT_XREFExport" msdata:IsDataSet="true" msdata:MainDataTable="PRCH_RSTRCT_XREF" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PRCH_RSTRCT_XREF">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PRCH_RSTRCT_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="PRCH_RSTRCT_GRP_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PRCH_RSTRCT_XREF>
+    <PRCH_RSTRCT_CD>2</PRCH_RSTRCT_CD>
+    <PRCH_RSTRCT_GRP_ID>1001</PRCH_RSTRCT_GRP_ID>
+    <STR_ID>1</STR_ID>
+  </PRCH_RSTRCT_XREF>
+  <PRCH_RSTRCT_XREF>
+    <PRCH_RSTRCT_CD>2</PRCH_RSTRCT_CD>
+    <PRCH_RSTRCT_GRP_ID>1002</PRCH_RSTRCT_GRP_ID>
+    <STR_ID>1</STR_ID>
+  </PRCH_RSTRCT_XREF>
+  <PRCH_RSTRCT_XREF>
+    <PRCH_RSTRCT_CD>2</PRCH_RSTRCT_CD>
+    <PRCH_RSTRCT_GRP_ID>1003</PRCH_RSTRCT_GRP_ID>
+    <STR_ID>1</STR_ID>
+  </PRCH_RSTRCT_XREF>
+  <PRCH_RSTRCT_XREF>
+    <PRCH_RSTRCT_CD>3</PRCH_RSTRCT_CD>
+    <PRCH_RSTRCT_GRP_ID>22</PRCH_RSTRCT_GRP_ID>
+    <STR_ID>1</STR_ID>
+  </PRCH_RSTRCT_XREF>
+  <PRCH_RSTRCT_XREF>
+    <PRCH_RSTRCT_CD>3</PRCH_RSTRCT_CD>
+    <PRCH_RSTRCT_GRP_ID>23</PRCH_RSTRCT_GRP_ID>
+    <STR_ID>1</STR_ID>
+  </PRCH_RSTRCT_XREF>
+  <PRCH_RSTRCT_XREF>
+    <PRCH_RSTRCT_CD>3</PRCH_RSTRCT_CD>
+    <PRCH_RSTRCT_GRP_ID>24</PRCH_RSTRCT_GRP_ID>
+    <STR_ID>1</STR_ID>
+  </PRCH_RSTRCT_XREF>
+</PRCH_RSTRCT_XREFExport>

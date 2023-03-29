@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<g_fuel_pricebookExport>
+  <xs:schema id="g_fuel_pricebookExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="g_fuel_pricebookExport" msdata:IsDataSet="true" msdata:MainDataTable="g_fuel_pricebook" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="g_fuel_pricebook">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PriceBookID" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="PriceBookName" type="xs:string" minOccurs="0" />
+                <xs:element name="NumPriceLevels" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="NumServiceLevels" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="NumOperatingLevels" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="PriceBookDateTime" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <g_fuel_pricebook>
+    <PriceBookID>1</PriceBookID>
+    <PriceBookName>Current</PriceBookName>
+    <NumPriceLevels>2</NumPriceLevels>
+    <NumServiceLevels>1</NumServiceLevels>
+    <NumOperatingLevels>1</NumOperatingLevels>
+    <PriceBookDateTime>2023-02-15T06:50:11-08:00</PriceBookDateTime>
+  </g_fuel_pricebook>
+  <g_fuel_pricebook>
+    <PriceBookID>2</PriceBookID>
+    <PriceBookName>Pending</PriceBookName>
+    <NumPriceLevels>2</NumPriceLevels>
+    <NumServiceLevels>1</NumServiceLevels>
+    <NumOperatingLevels>1</NumOperatingLevels>
+    <PriceBookDateTime>2023-02-15T06:50:11-08:00</PriceBookDateTime>
+  </g_fuel_pricebook>
+</g_fuel_pricebookExport>

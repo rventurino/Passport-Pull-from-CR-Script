@@ -1,0 +1,90 @@
+<?xml version="1.0" standalone="yes"?>
+<g_fuel_disptotankExport>
+  <xs:schema id="g_fuel_disptotankExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="g_fuel_disptotankExport" msdata:IsDataSet="true" msdata:MainDataTable="g_fuel_disptotank" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="g_fuel_disptotank">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TankID" type="xs:short" minOccurs="0" />
+                <xs:element name="DispenserID" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="DispenserProductID" type="xs:unsignedByte" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <g_fuel_disptotank>
+    <TankID>1</TankID>
+    <DispenserID>1</DispenserID>
+    <DispenserProductID>1</DispenserProductID>
+  </g_fuel_disptotank>
+  <g_fuel_disptotank>
+    <TankID>1</TankID>
+    <DispenserID>2</DispenserID>
+    <DispenserProductID>1</DispenserProductID>
+  </g_fuel_disptotank>
+  <g_fuel_disptotank>
+    <TankID>1</TankID>
+    <DispenserID>5</DispenserID>
+    <DispenserProductID>1</DispenserProductID>
+  </g_fuel_disptotank>
+  <g_fuel_disptotank>
+    <TankID>1</TankID>
+    <DispenserID>6</DispenserID>
+    <DispenserProductID>1</DispenserProductID>
+  </g_fuel_disptotank>
+  <g_fuel_disptotank>
+    <TankID>1</TankID>
+    <DispenserID>7</DispenserID>
+    <DispenserProductID>1</DispenserProductID>
+  </g_fuel_disptotank>
+  <g_fuel_disptotank>
+    <TankID>1</TankID>
+    <DispenserID>8</DispenserID>
+    <DispenserProductID>1</DispenserProductID>
+  </g_fuel_disptotank>
+  <g_fuel_disptotank>
+    <TankID>2</TankID>
+    <DispenserID>3</DispenserID>
+    <DispenserProductID>1</DispenserProductID>
+  </g_fuel_disptotank>
+  <g_fuel_disptotank>
+    <TankID>2</TankID>
+    <DispenserID>4</DispenserID>
+    <DispenserProductID>1</DispenserProductID>
+  </g_fuel_disptotank>
+  <g_fuel_disptotank>
+    <TankID>3</TankID>
+    <DispenserID>1</DispenserID>
+    <DispenserProductID>2</DispenserProductID>
+  </g_fuel_disptotank>
+  <g_fuel_disptotank>
+    <TankID>3</TankID>
+    <DispenserID>2</DispenserID>
+    <DispenserProductID>2</DispenserProductID>
+  </g_fuel_disptotank>
+  <g_fuel_disptotank>
+    <TankID>3</TankID>
+    <DispenserID>5</DispenserID>
+    <DispenserProductID>2</DispenserProductID>
+  </g_fuel_disptotank>
+  <g_fuel_disptotank>
+    <TankID>3</TankID>
+    <DispenserID>6</DispenserID>
+    <DispenserProductID>2</DispenserProductID>
+  </g_fuel_disptotank>
+  <g_fuel_disptotank>
+    <TankID>3</TankID>
+    <DispenserID>7</DispenserID>
+    <DispenserProductID>2</DispenserProductID>
+  </g_fuel_disptotank>
+  <g_fuel_disptotank>
+    <TankID>3</TankID>
+    <DispenserID>8</DispenserID>
+    <DispenserProductID>2</DispenserProductID>
+  </g_fuel_disptotank>
+</g_fuel_disptotankExport>

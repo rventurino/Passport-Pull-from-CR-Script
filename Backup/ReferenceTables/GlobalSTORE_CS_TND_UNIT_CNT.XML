@@ -1,0 +1,195 @@
+<?xml version="1.0" standalone="yes"?>
+<CS_TND_UNIT_CNTExport>
+  <xs:schema id="CS_TND_UNIT_CNTExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="CS_TND_UNIT_CNTExport" msdata:IsDataSet="true" msdata:MainDataTable="CS_TND_UNIT_CNT" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="CS_TND_UNIT_CNT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TND_UNIT_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="TND_UNIT_AMT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TND_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="TND_UNIT_DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="CS_TXT_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="BILLS_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="CURR_ID" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <CS_TND_UNIT_CNT>
+    <TND_UNIT_CD>1</TND_UNIT_CD>
+    <TND_UNIT_AMT>0.0100</TND_UNIT_AMT>
+    <TND_CD>1</TND_CD>
+    <STR_ID>1</STR_ID>
+    <TND_UNIT_DESCR>Pennies</TND_UNIT_DESCR>
+    <CS_TXT_ID>3669</CS_TXT_ID>
+    <BILLS_FG>0</BILLS_FG>
+    <CURR_ID>1</CURR_ID>
+  </CS_TND_UNIT_CNT>
+  <CS_TND_UNIT_CNT>
+    <TND_UNIT_CD>2</TND_UNIT_CD>
+    <TND_UNIT_AMT>0.0500</TND_UNIT_AMT>
+    <TND_CD>1</TND_CD>
+    <STR_ID>1</STR_ID>
+    <TND_UNIT_DESCR>Nickels</TND_UNIT_DESCR>
+    <CS_TXT_ID>3670</CS_TXT_ID>
+    <BILLS_FG>0</BILLS_FG>
+    <CURR_ID>1</CURR_ID>
+  </CS_TND_UNIT_CNT>
+  <CS_TND_UNIT_CNT>
+    <TND_UNIT_CD>3</TND_UNIT_CD>
+    <TND_UNIT_AMT>0.1000</TND_UNIT_AMT>
+    <TND_CD>1</TND_CD>
+    <STR_ID>1</STR_ID>
+    <TND_UNIT_DESCR>Dime</TND_UNIT_DESCR>
+    <CS_TXT_ID>3671</CS_TXT_ID>
+    <BILLS_FG>0</BILLS_FG>
+    <CURR_ID>1</CURR_ID>
+  </CS_TND_UNIT_CNT>
+  <CS_TND_UNIT_CNT>
+    <TND_UNIT_CD>4</TND_UNIT_CD>
+    <TND_UNIT_AMT>0.2500</TND_UNIT_AMT>
+    <TND_CD>1</TND_CD>
+    <STR_ID>1</STR_ID>
+    <TND_UNIT_DESCR>Quarter</TND_UNIT_DESCR>
+    <CS_TXT_ID>3672</CS_TXT_ID>
+    <BILLS_FG>0</BILLS_FG>
+    <CURR_ID>1</CURR_ID>
+  </CS_TND_UNIT_CNT>
+  <CS_TND_UNIT_CNT>
+    <TND_UNIT_CD>5</TND_UNIT_CD>
+    <TND_UNIT_AMT>0.5000</TND_UNIT_AMT>
+    <TND_CD>1</TND_CD>
+    <STR_ID>1</STR_ID>
+    <TND_UNIT_DESCR>Roll of Pennies</TND_UNIT_DESCR>
+    <CS_TXT_ID>3673</CS_TXT_ID>
+    <BILLS_FG>0</BILLS_FG>
+    <CURR_ID>1</CURR_ID>
+  </CS_TND_UNIT_CNT>
+  <CS_TND_UNIT_CNT>
+    <TND_UNIT_CD>6</TND_UNIT_CD>
+    <TND_UNIT_AMT>0.5000</TND_UNIT_AMT>
+    <TND_CD>1</TND_CD>
+    <STR_ID>1</STR_ID>
+    <TND_UNIT_DESCR>Fifty Cent Piece</TND_UNIT_DESCR>
+    <CS_TXT_ID>3674</CS_TXT_ID>
+    <BILLS_FG>0</BILLS_FG>
+    <CURR_ID>1</CURR_ID>
+  </CS_TND_UNIT_CNT>
+  <CS_TND_UNIT_CNT>
+    <TND_UNIT_CD>7</TND_UNIT_CD>
+    <TND_UNIT_AMT>1.0000</TND_UNIT_AMT>
+    <TND_CD>1</TND_CD>
+    <STR_ID>1</STR_ID>
+    <TND_UNIT_DESCR>One Dollar Coin</TND_UNIT_DESCR>
+    <CS_TXT_ID>3675</CS_TXT_ID>
+    <BILLS_FG>0</BILLS_FG>
+    <CURR_ID>1</CURR_ID>
+  </CS_TND_UNIT_CNT>
+  <CS_TND_UNIT_CNT>
+    <TND_UNIT_CD>8</TND_UNIT_CD>
+    <TND_UNIT_AMT>1.0000</TND_UNIT_AMT>
+    <TND_CD>1</TND_CD>
+    <STR_ID>1</STR_ID>
+    <TND_UNIT_DESCR>One Dollar Bill</TND_UNIT_DESCR>
+    <CS_TXT_ID>3676</CS_TXT_ID>
+    <BILLS_FG>1</BILLS_FG>
+    <CURR_ID>1</CURR_ID>
+  </CS_TND_UNIT_CNT>
+  <CS_TND_UNIT_CNT>
+    <TND_UNIT_CD>9</TND_UNIT_CD>
+    <TND_UNIT_AMT>2.0000</TND_UNIT_AMT>
+    <TND_CD>1</TND_CD>
+    <STR_ID>1</STR_ID>
+    <TND_UNIT_DESCR>Roll of Nickels</TND_UNIT_DESCR>
+    <CS_TXT_ID>3677</CS_TXT_ID>
+    <BILLS_FG>0</BILLS_FG>
+    <CURR_ID>1</CURR_ID>
+  </CS_TND_UNIT_CNT>
+  <CS_TND_UNIT_CNT>
+    <TND_UNIT_CD>10</TND_UNIT_CD>
+    <TND_UNIT_AMT>2.0000</TND_UNIT_AMT>
+    <TND_CD>1</TND_CD>
+    <STR_ID>1</STR_ID>
+    <TND_UNIT_DESCR>Two Dollar Bill</TND_UNIT_DESCR>
+    <CS_TXT_ID>3678</CS_TXT_ID>
+    <BILLS_FG>1</BILLS_FG>
+    <CURR_ID>1</CURR_ID>
+  </CS_TND_UNIT_CNT>
+  <CS_TND_UNIT_CNT>
+    <TND_UNIT_CD>11</TND_UNIT_CD>
+    <TND_UNIT_AMT>5.0000</TND_UNIT_AMT>
+    <TND_CD>1</TND_CD>
+    <STR_ID>1</STR_ID>
+    <TND_UNIT_DESCR>Roll of Dimes</TND_UNIT_DESCR>
+    <CS_TXT_ID>3679</CS_TXT_ID>
+    <BILLS_FG>0</BILLS_FG>
+    <CURR_ID>1</CURR_ID>
+  </CS_TND_UNIT_CNT>
+  <CS_TND_UNIT_CNT>
+    <TND_UNIT_CD>12</TND_UNIT_CD>
+    <TND_UNIT_AMT>5.0000</TND_UNIT_AMT>
+    <TND_CD>1</TND_CD>
+    <STR_ID>1</STR_ID>
+    <TND_UNIT_DESCR>Five Dollar Bill</TND_UNIT_DESCR>
+    <CS_TXT_ID>3680</CS_TXT_ID>
+    <BILLS_FG>1</BILLS_FG>
+    <CURR_ID>1</CURR_ID>
+  </CS_TND_UNIT_CNT>
+  <CS_TND_UNIT_CNT>
+    <TND_UNIT_CD>13</TND_UNIT_CD>
+    <TND_UNIT_AMT>10.0000</TND_UNIT_AMT>
+    <TND_CD>1</TND_CD>
+    <STR_ID>1</STR_ID>
+    <TND_UNIT_DESCR>Roll of Quarters</TND_UNIT_DESCR>
+    <CS_TXT_ID>3681</CS_TXT_ID>
+    <BILLS_FG>0</BILLS_FG>
+    <CURR_ID>1</CURR_ID>
+  </CS_TND_UNIT_CNT>
+  <CS_TND_UNIT_CNT>
+    <TND_UNIT_CD>14</TND_UNIT_CD>
+    <TND_UNIT_AMT>10.0000</TND_UNIT_AMT>
+    <TND_CD>1</TND_CD>
+    <STR_ID>1</STR_ID>
+    <TND_UNIT_DESCR>Ten Dollar Bill</TND_UNIT_DESCR>
+    <CS_TXT_ID>3682</CS_TXT_ID>
+    <BILLS_FG>1</BILLS_FG>
+    <CURR_ID>1</CURR_ID>
+  </CS_TND_UNIT_CNT>
+  <CS_TND_UNIT_CNT>
+    <TND_UNIT_CD>15</TND_UNIT_CD>
+    <TND_UNIT_AMT>20.0000</TND_UNIT_AMT>
+    <TND_CD>1</TND_CD>
+    <STR_ID>1</STR_ID>
+    <TND_UNIT_DESCR>Twenty Dollar Bill</TND_UNIT_DESCR>
+    <CS_TXT_ID>3683</CS_TXT_ID>
+    <BILLS_FG>1</BILLS_FG>
+    <CURR_ID>1</CURR_ID>
+  </CS_TND_UNIT_CNT>
+  <CS_TND_UNIT_CNT>
+    <TND_UNIT_CD>16</TND_UNIT_CD>
+    <TND_UNIT_AMT>50.0000</TND_UNIT_AMT>
+    <TND_CD>1</TND_CD>
+    <STR_ID>1</STR_ID>
+    <TND_UNIT_DESCR>Fifty Dollar Bill</TND_UNIT_DESCR>
+    <CS_TXT_ID>3684</CS_TXT_ID>
+    <BILLS_FG>1</BILLS_FG>
+    <CURR_ID>1</CURR_ID>
+  </CS_TND_UNIT_CNT>
+  <CS_TND_UNIT_CNT>
+    <TND_UNIT_CD>17</TND_UNIT_CD>
+    <TND_UNIT_AMT>100.0000</TND_UNIT_AMT>
+    <TND_CD>1</TND_CD>
+    <STR_ID>1</STR_ID>
+    <TND_UNIT_DESCR>Hundred Dollar Bill</TND_UNIT_DESCR>
+    <CS_TXT_ID>3685</CS_TXT_ID>
+    <BILLS_FG>1</BILLS_FG>
+    <CURR_ID>1</CURR_ID>
+  </CS_TND_UNIT_CNT>
+</CS_TND_UNIT_CNTExport>

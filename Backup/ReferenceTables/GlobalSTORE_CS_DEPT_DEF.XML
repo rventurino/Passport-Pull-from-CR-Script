@@ -1,0 +1,160 @@
+<?xml version="1.0" standalone="yes"?>
+<CS_DEPT_DEFExport>
+  <xs:schema id="CS_DEPT_DEFExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="CS_DEPT_DEFExport" msdata:IsDataSet="true" msdata:MainDataTable="CS_DEPT_DEF" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="CS_DEPT_DEF">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MENU_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="PAGE_NO" type="xs:short" minOccurs="0" />
+                <xs:element name="POSITION_NO" type="xs:short" minOccurs="0" />
+                <xs:element name="ITM_ID_ASSIGNED" type="xs:string" minOccurs="0" />
+                <xs:element name="MENU_ID_ASSIGNED" type="xs:short" minOccurs="0" />
+                <xs:element name="BUTTON_ICON" type="xs:string" minOccurs="0" />
+                <xs:element name="CS_TXT_ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <CS_DEPT_DEF>
+    <MENU_ID>1</MENU_ID>
+    <PAGE_NO>1</PAGE_NO>
+    <POSITION_NO>1</POSITION_NO>
+    <ITM_ID_ASSIGNED>DEPT27</ITM_ID_ASSIGNED>
+    <BUTTON_ICON>lottoballs.bmp</BUTTON_ICON>
+    <CS_TXT_ID>3745</CS_TXT_ID>
+  </CS_DEPT_DEF>
+  <CS_DEPT_DEF>
+    <MENU_ID>1</MENU_ID>
+    <PAGE_NO>1</PAGE_NO>
+    <POSITION_NO>2</POSITION_NO>
+    <ITM_ID_ASSIGNED>DEPT29</ITM_ID_ASSIGNED>
+    <BUTTON_ICON>paidout.bmp</BUTTON_ICON>
+    <CS_TXT_ID>3746</CS_TXT_ID>
+  </CS_DEPT_DEF>
+  <CS_DEPT_DEF>
+    <MENU_ID>1</MENU_ID>
+    <PAGE_NO>1</PAGE_NO>
+    <POSITION_NO>3</POSITION_NO>
+    <ITM_ID_ASSIGNED>DEPT28</ITM_ID_ASSIGNED>
+    <BUTTON_ICON>lottoscratch.bmp</BUTTON_ICON>
+    <CS_TXT_ID>3747</CS_TXT_ID>
+  </CS_DEPT_DEF>
+  <CS_DEPT_DEF>
+    <MENU_ID>1</MENU_ID>
+    <PAGE_NO>1</PAGE_NO>
+    <POSITION_NO>4</POSITION_NO>
+    <ITM_ID_ASSIGNED>DEPT30</ITM_ID_ASSIGNED>
+    <BUTTON_ICON>paidout.bmp</BUTTON_ICON>
+    <CS_TXT_ID>3748</CS_TXT_ID>
+  </CS_DEPT_DEF>
+  <CS_DEPT_DEF>
+    <MENU_ID>1</MENU_ID>
+    <PAGE_NO>1</PAGE_NO>
+    <POSITION_NO>5</POSITION_NO>
+    <ITM_ID_ASSIGNED>DEPT5</ITM_ID_ASSIGNED>
+    <BUTTON_ICON>hairbrush.bmp</BUTTON_ICON>
+    <CS_TXT_ID>3749</CS_TXT_ID>
+  </CS_DEPT_DEF>
+  <CS_DEPT_DEF>
+    <MENU_ID>1</MENU_ID>
+    <PAGE_NO>1</PAGE_NO>
+    <POSITION_NO>6</POSITION_NO>
+    <ITM_ID_ASSIGNED>DEPT6</ITM_ID_ASSIGNED>
+    <BUTTON_ICON>oil.bmp</BUTTON_ICON>
+    <CS_TXT_ID>3750</CS_TXT_ID>
+  </CS_DEPT_DEF>
+  <CS_DEPT_DEF>
+    <MENU_ID>1</MENU_ID>
+    <PAGE_NO>1</PAGE_NO>
+    <POSITION_NO>7</POSITION_NO>
+    <ITM_ID_ASSIGNED>DEPT7</ITM_ID_ASSIGNED>
+    <BUTTON_ICON>soda.bmp</BUTTON_ICON>
+    <CS_TXT_ID>3751</CS_TXT_ID>
+  </CS_DEPT_DEF>
+  <CS_DEPT_DEF>
+    <MENU_ID>1</MENU_ID>
+    <PAGE_NO>1</PAGE_NO>
+    <POSITION_NO>8</POSITION_NO>
+    <ITM_ID_ASSIGNED>DEPT2</ITM_ID_ASSIGNED>
+    <BUTTON_ICON>tobacco_other.bmp</BUTTON_ICON>
+    <CS_TXT_ID>3752</CS_TXT_ID>
+  </CS_DEPT_DEF>
+  <CS_DEPT_DEF>
+    <MENU_ID>1</MENU_ID>
+    <PAGE_NO>1</PAGE_NO>
+    <POSITION_NO>9</POSITION_NO>
+    <ITM_ID_ASSIGNED>DEPT9</ITM_ID_ASSIGNED>
+    <BUTTON_ICON>beer.bmp</BUTTON_ICON>
+    <CS_TXT_ID>3753</CS_TXT_ID>
+  </CS_DEPT_DEF>
+  <CS_DEPT_DEF>
+    <MENU_ID>1</MENU_ID>
+    <PAGE_NO>1</PAGE_NO>
+    <POSITION_NO>10</POSITION_NO>
+    <ITM_ID_ASSIGNED>DEPT40</ITM_ID_ASSIGNED>
+    <BUTTON_ICON>arrowdown.bmp</BUTTON_ICON>
+    <CS_TXT_ID>3754</CS_TXT_ID>
+  </CS_DEPT_DEF>
+  <CS_DEPT_DEF>
+    <MENU_ID>1</MENU_ID>
+    <PAGE_NO>1</PAGE_NO>
+    <POSITION_NO>11</POSITION_NO>
+    <ITM_ID_ASSIGNED>DEPT12</ITM_ID_ASSIGNED>
+    <BUTTON_ICON>arrowdown.bmp</BUTTON_ICON>
+    <CS_TXT_ID>3755</CS_TXT_ID>
+  </CS_DEPT_DEF>
+  <CS_DEPT_DEF>
+    <MENU_ID>1</MENU_ID>
+    <PAGE_NO>1</PAGE_NO>
+    <POSITION_NO>12</POSITION_NO>
+    <ITM_ID_ASSIGNED>DEPT11</ITM_ID_ASSIGNED>
+    <BUTTON_ICON>icecream_box.bmp</BUTTON_ICON>
+    <CS_TXT_ID>3756</CS_TXT_ID>
+  </CS_DEPT_DEF>
+  <CS_DEPT_DEF>
+    <MENU_ID>1</MENU_ID>
+    <PAGE_NO>1</PAGE_NO>
+    <POSITION_NO>13</POSITION_NO>
+    <ITM_ID_ASSIGNED>DEPT15</ITM_ID_ASSIGNED>
+    <BUTTON_ICON>sodaliter.bmp</BUTTON_ICON>
+    <CS_TXT_ID>3757</CS_TXT_ID>
+  </CS_DEPT_DEF>
+  <CS_DEPT_DEF>
+    <MENU_ID>1</MENU_ID>
+    <PAGE_NO>1</PAGE_NO>
+    <POSITION_NO>14</POSITION_NO>
+    <ITM_ID_ASSIGNED>DEPT24</ITM_ID_ASSIGNED>
+    <BUTTON_ICON>tender.bmp</BUTTON_ICON>
+    <CS_TXT_ID>3758</CS_TXT_ID>
+  </CS_DEPT_DEF>
+  <CS_DEPT_DEF>
+    <MENU_ID>1</MENU_ID>
+    <PAGE_NO>1</PAGE_NO>
+    <POSITION_NO>15</POSITION_NO>
+    <ITM_ID_ASSIGNED>DEPT3</ITM_ID_ASSIGNED>
+    <BUTTON_ICON>cigarette.bmp</BUTTON_ICON>
+    <CS_TXT_ID>3954</CS_TXT_ID>
+  </CS_DEPT_DEF>
+  <CS_DEPT_DEF>
+    <MENU_ID>1</MENU_ID>
+    <PAGE_NO>1</PAGE_NO>
+    <POSITION_NO>16</POSITION_NO>
+    <ITM_ID_ASSIGNED>DEPT4</ITM_ID_ASSIGNED>
+    <BUTTON_ICON>diapers.bmp</BUTTON_ICON>
+    <CS_TXT_ID>3959</CS_TXT_ID>
+  </CS_DEPT_DEF>
+  <CS_DEPT_DEF>
+    <MENU_ID>999</MENU_ID>
+    <PAGE_NO>1</PAGE_NO>
+    <POSITION_NO>1</POSITION_NO>
+    <ITM_ID_ASSIGNED>CPN99999</ITM_ID_ASSIGNED>
+    <BUTTON_ICON />
+    <CS_TXT_ID>3760</CS_TXT_ID>
+  </CS_DEPT_DEF>
+</CS_DEPT_DEFExport>

@@ -1,0 +1,276 @@
+<?xml version="1.0" standalone="yes"?>
+<g_fuel_dispenserExport>
+  <xs:schema id="g_fuel_dispenserExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="g_fuel_dispenserExport" msdata:IsDataSet="true" msdata:MainDataTable="g_fuel_dispenser" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="g_fuel_dispenser">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DispenserID" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="DispenserTypeID" type="xs:short" minOccurs="0" />
+                <xs:element name="Manufacturername" type="xs:string" minOccurs="0" />
+                <xs:element name="ModelNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="SerialNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="CRINDinstalled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="LoopID" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="DeviceID" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="ProtocolID" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="TerminalType" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="PhysicalPumpId" type="xs:short" minOccurs="0" />
+                <xs:element name="IsAutoOnDispenser" type="xs:boolean" minOccurs="0" />
+                <xs:element name="SpeedPassInstalled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="WayneSlowDown" type="xs:decimal" minOccurs="0" />
+                <xs:element name="UsesSPC" type="xs:boolean" minOccurs="0" />
+                <xs:element name="BillAcceptorInstalled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="BarCodeScannerInstalled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="FirmwareVersion" type="xs:string" minOccurs="0" />
+                <xs:element name="EPPInstalled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DoorAlarmEnabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IpAddress" type="xs:string" minOccurs="0" />
+                <xs:element name="IpPort" type="xs:int" minOccurs="0" />
+                <xs:element name="LowVolumeLimit" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ShutOffVolumeLimit" type="xs:decimal" minOccurs="0" />
+                <xs:element name="UnitOfMeasure" type="xs:string" minOccurs="0" />
+                <xs:element name="CommercialDiesel" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ReeferEnabled" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <g_fuel_dispenser>
+    <DispenserID>1</DispenserID>
+    <DispenserTypeID>5</DispenserTypeID>
+    <Manufacturername>Gilbarco</Manufacturername>
+    <ModelNumber xml:space="preserve"> </ModelNumber>
+    <SerialNumber xml:space="preserve"> </SerialNumber>
+    <CRINDinstalled>true</CRINDinstalled>
+    <LoopID>4</LoopID>
+    <DeviceID>0</DeviceID>
+    <ProtocolID>0</ProtocolID>
+    <TerminalType>1</TerminalType>
+    <PhysicalPumpId>1600</PhysicalPumpId>
+    <IsAutoOnDispenser>true</IsAutoOnDispenser>
+    <SpeedPassInstalled>false</SpeedPassInstalled>
+    <WayneSlowDown>0.0000</WayneSlowDown>
+    <UsesSPC>false</UsesSPC>
+    <BillAcceptorInstalled>false</BillAcceptorInstalled>
+    <BarCodeScannerInstalled>false</BarCodeScannerInstalled>
+    <FirmwareVersion />
+    <EPPInstalled>false</EPPInstalled>
+    <DoorAlarmEnabled>false</DoorAlarmEnabled>
+    <IpAddress>10.5.55.71</IpAddress>
+    <IpPort>4871</IpPort>
+    <LowVolumeLimit>0.0000</LowVolumeLimit>
+    <ShutOffVolumeLimit>0.0000</ShutOffVolumeLimit>
+    <UnitOfMeasure />
+    <CommercialDiesel>false</CommercialDiesel>
+    <ReeferEnabled>false</ReeferEnabled>
+  </g_fuel_dispenser>
+  <g_fuel_dispenser>
+    <DispenserID>2</DispenserID>
+    <DispenserTypeID>5</DispenserTypeID>
+    <Manufacturername>Gilbarco</Manufacturername>
+    <ModelNumber xml:space="preserve"> </ModelNumber>
+    <SerialNumber />
+    <CRINDinstalled>true</CRINDinstalled>
+    <LoopID>4</LoopID>
+    <DeviceID>1</DeviceID>
+    <ProtocolID>0</ProtocolID>
+    <TerminalType>1</TerminalType>
+    <PhysicalPumpId>1601</PhysicalPumpId>
+    <IsAutoOnDispenser>true</IsAutoOnDispenser>
+    <SpeedPassInstalled>false</SpeedPassInstalled>
+    <WayneSlowDown>0.0000</WayneSlowDown>
+    <UsesSPC>false</UsesSPC>
+    <BillAcceptorInstalled>false</BillAcceptorInstalled>
+    <BarCodeScannerInstalled>false</BarCodeScannerInstalled>
+    <FirmwareVersion />
+    <EPPInstalled>false</EPPInstalled>
+    <DoorAlarmEnabled>false</DoorAlarmEnabled>
+    <IpAddress>10.5.55.72</IpAddress>
+    <IpPort>4871</IpPort>
+    <LowVolumeLimit>0.0000</LowVolumeLimit>
+    <ShutOffVolumeLimit>0.0000</ShutOffVolumeLimit>
+    <UnitOfMeasure />
+    <CommercialDiesel>false</CommercialDiesel>
+    <ReeferEnabled>false</ReeferEnabled>
+  </g_fuel_dispenser>
+  <g_fuel_dispenser>
+    <DispenserID>3</DispenserID>
+    <DispenserTypeID>1</DispenserTypeID>
+    <Manufacturername>Gilbarco</Manufacturername>
+    <ModelNumber xml:space="preserve"> </ModelNumber>
+    <SerialNumber />
+    <CRINDinstalled>true</CRINDinstalled>
+    <LoopID>4</LoopID>
+    <DeviceID>2</DeviceID>
+    <ProtocolID>0</ProtocolID>
+    <TerminalType>1</TerminalType>
+    <PhysicalPumpId>1602</PhysicalPumpId>
+    <IsAutoOnDispenser>true</IsAutoOnDispenser>
+    <SpeedPassInstalled>false</SpeedPassInstalled>
+    <WayneSlowDown>0.0000</WayneSlowDown>
+    <UsesSPC>false</UsesSPC>
+    <BillAcceptorInstalled>false</BillAcceptorInstalled>
+    <BarCodeScannerInstalled>false</BarCodeScannerInstalled>
+    <FirmwareVersion />
+    <EPPInstalled>false</EPPInstalled>
+    <DoorAlarmEnabled>false</DoorAlarmEnabled>
+    <IpAddress>10.5.55.73</IpAddress>
+    <IpPort>4871</IpPort>
+    <LowVolumeLimit>0.0000</LowVolumeLimit>
+    <ShutOffVolumeLimit>0.0000</ShutOffVolumeLimit>
+    <UnitOfMeasure />
+    <CommercialDiesel>false</CommercialDiesel>
+    <ReeferEnabled>false</ReeferEnabled>
+  </g_fuel_dispenser>
+  <g_fuel_dispenser>
+    <DispenserID>4</DispenserID>
+    <DispenserTypeID>1</DispenserTypeID>
+    <Manufacturername>Gilbarco</Manufacturername>
+    <ModelNumber xml:space="preserve"> </ModelNumber>
+    <SerialNumber />
+    <CRINDinstalled>true</CRINDinstalled>
+    <LoopID>4</LoopID>
+    <DeviceID>3</DeviceID>
+    <ProtocolID>0</ProtocolID>
+    <TerminalType>1</TerminalType>
+    <PhysicalPumpId>1603</PhysicalPumpId>
+    <IsAutoOnDispenser>true</IsAutoOnDispenser>
+    <SpeedPassInstalled>false</SpeedPassInstalled>
+    <WayneSlowDown>0.0000</WayneSlowDown>
+    <UsesSPC>false</UsesSPC>
+    <BillAcceptorInstalled>false</BillAcceptorInstalled>
+    <BarCodeScannerInstalled>false</BarCodeScannerInstalled>
+    <FirmwareVersion />
+    <EPPInstalled>false</EPPInstalled>
+    <DoorAlarmEnabled>false</DoorAlarmEnabled>
+    <IpAddress>10.5.55.74</IpAddress>
+    <IpPort>4871</IpPort>
+    <LowVolumeLimit>0.0000</LowVolumeLimit>
+    <ShutOffVolumeLimit>0.0000</ShutOffVolumeLimit>
+    <UnitOfMeasure />
+    <CommercialDiesel>false</CommercialDiesel>
+    <ReeferEnabled>false</ReeferEnabled>
+  </g_fuel_dispenser>
+  <g_fuel_dispenser>
+    <DispenserID>5</DispenserID>
+    <DispenserTypeID>5</DispenserTypeID>
+    <Manufacturername>Gilbarco</Manufacturername>
+    <ModelNumber xml:space="preserve"> </ModelNumber>
+    <SerialNumber />
+    <CRINDinstalled>true</CRINDinstalled>
+    <LoopID>4</LoopID>
+    <DeviceID>4</DeviceID>
+    <ProtocolID>0</ProtocolID>
+    <TerminalType>1</TerminalType>
+    <PhysicalPumpId>1604</PhysicalPumpId>
+    <IsAutoOnDispenser>true</IsAutoOnDispenser>
+    <SpeedPassInstalled>false</SpeedPassInstalled>
+    <WayneSlowDown>0.0000</WayneSlowDown>
+    <UsesSPC>false</UsesSPC>
+    <BillAcceptorInstalled>false</BillAcceptorInstalled>
+    <BarCodeScannerInstalled>false</BarCodeScannerInstalled>
+    <FirmwareVersion />
+    <EPPInstalled>false</EPPInstalled>
+    <DoorAlarmEnabled>false</DoorAlarmEnabled>
+    <IpAddress>10.5.55.75</IpAddress>
+    <IpPort>4871</IpPort>
+    <LowVolumeLimit>0.0000</LowVolumeLimit>
+    <ShutOffVolumeLimit>0.0000</ShutOffVolumeLimit>
+    <UnitOfMeasure />
+    <CommercialDiesel>false</CommercialDiesel>
+    <ReeferEnabled>false</ReeferEnabled>
+  </g_fuel_dispenser>
+  <g_fuel_dispenser>
+    <DispenserID>6</DispenserID>
+    <DispenserTypeID>5</DispenserTypeID>
+    <Manufacturername>Gilbarco</Manufacturername>
+    <ModelNumber xml:space="preserve"> </ModelNumber>
+    <SerialNumber />
+    <CRINDinstalled>true</CRINDinstalled>
+    <LoopID>4</LoopID>
+    <DeviceID>5</DeviceID>
+    <ProtocolID>0</ProtocolID>
+    <TerminalType>1</TerminalType>
+    <PhysicalPumpId>1605</PhysicalPumpId>
+    <IsAutoOnDispenser>true</IsAutoOnDispenser>
+    <SpeedPassInstalled>false</SpeedPassInstalled>
+    <WayneSlowDown>0.0000</WayneSlowDown>
+    <UsesSPC>false</UsesSPC>
+    <BillAcceptorInstalled>false</BillAcceptorInstalled>
+    <BarCodeScannerInstalled>false</BarCodeScannerInstalled>
+    <FirmwareVersion />
+    <EPPInstalled>false</EPPInstalled>
+    <DoorAlarmEnabled>false</DoorAlarmEnabled>
+    <IpAddress>10.5.55.76</IpAddress>
+    <IpPort>4871</IpPort>
+    <LowVolumeLimit>0.0000</LowVolumeLimit>
+    <ShutOffVolumeLimit>0.0000</ShutOffVolumeLimit>
+    <UnitOfMeasure />
+    <CommercialDiesel>false</CommercialDiesel>
+    <ReeferEnabled>false</ReeferEnabled>
+  </g_fuel_dispenser>
+  <g_fuel_dispenser>
+    <DispenserID>7</DispenserID>
+    <DispenserTypeID>5</DispenserTypeID>
+    <Manufacturername>Gilbarco</Manufacturername>
+    <ModelNumber xml:space="preserve"> </ModelNumber>
+    <SerialNumber />
+    <CRINDinstalled>true</CRINDinstalled>
+    <LoopID>4</LoopID>
+    <DeviceID>6</DeviceID>
+    <ProtocolID>0</ProtocolID>
+    <TerminalType>1</TerminalType>
+    <PhysicalPumpId>1606</PhysicalPumpId>
+    <IsAutoOnDispenser>true</IsAutoOnDispenser>
+    <SpeedPassInstalled>false</SpeedPassInstalled>
+    <WayneSlowDown>0.0000</WayneSlowDown>
+    <UsesSPC>false</UsesSPC>
+    <BillAcceptorInstalled>false</BillAcceptorInstalled>
+    <BarCodeScannerInstalled>false</BarCodeScannerInstalled>
+    <FirmwareVersion />
+    <EPPInstalled>false</EPPInstalled>
+    <DoorAlarmEnabled>false</DoorAlarmEnabled>
+    <IpAddress>10.5.55.77</IpAddress>
+    <IpPort>4871</IpPort>
+    <LowVolumeLimit>0.0000</LowVolumeLimit>
+    <ShutOffVolumeLimit>0.0000</ShutOffVolumeLimit>
+    <UnitOfMeasure />
+    <CommercialDiesel>false</CommercialDiesel>
+    <ReeferEnabled>false</ReeferEnabled>
+  </g_fuel_dispenser>
+  <g_fuel_dispenser>
+    <DispenserID>8</DispenserID>
+    <DispenserTypeID>5</DispenserTypeID>
+    <Manufacturername>Gilbarco</Manufacturername>
+    <ModelNumber xml:space="preserve"> </ModelNumber>
+    <SerialNumber />
+    <CRINDinstalled>true</CRINDinstalled>
+    <LoopID>4</LoopID>
+    <DeviceID>7</DeviceID>
+    <ProtocolID>0</ProtocolID>
+    <TerminalType>1</TerminalType>
+    <PhysicalPumpId>1607</PhysicalPumpId>
+    <IsAutoOnDispenser>true</IsAutoOnDispenser>
+    <SpeedPassInstalled>false</SpeedPassInstalled>
+    <WayneSlowDown>0.0000</WayneSlowDown>
+    <UsesSPC>false</UsesSPC>
+    <BillAcceptorInstalled>false</BillAcceptorInstalled>
+    <BarCodeScannerInstalled>false</BarCodeScannerInstalled>
+    <FirmwareVersion />
+    <EPPInstalled>false</EPPInstalled>
+    <DoorAlarmEnabled>false</DoorAlarmEnabled>
+    <IpAddress>10.5.55.78</IpAddress>
+    <IpPort>4871</IpPort>
+    <LowVolumeLimit>0.0000</LowVolumeLimit>
+    <ShutOffVolumeLimit>0.0000</ShutOffVolumeLimit>
+    <UnitOfMeasure />
+    <CommercialDiesel>false</CommercialDiesel>
+    <ReeferEnabled>false</ReeferEnabled>
+  </g_fuel_dispenser>
+</g_fuel_dispenserExport>

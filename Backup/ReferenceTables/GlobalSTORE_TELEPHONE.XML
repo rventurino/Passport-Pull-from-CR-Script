@@ -1,0 +1,84 @@
+<?xml version="1.0" standalone="yes"?>
+<TELEPHONEExport>
+  <xs:schema id="TELEPHONEExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="TELEPHONEExport" msdata:IsDataSet="true" msdata:MainDataTable="TELEPHONE" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TELEPHONE">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PHN_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="SUB_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="USAGE_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="PHN_TYP" type="xs:short" minOccurs="0" />
+                <xs:element name="SEQ_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="CNTRY_CD" type="xs:string" minOccurs="0" />
+                <xs:element name="AREA_CD" type="xs:string" minOccurs="0" />
+                <xs:element name="PHN_NBR" type="xs:string" minOccurs="0" />
+                <xs:element name="EXTN" type="xs:string" minOccurs="0" />
+                <xs:element name="ENT_TYP" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <TELEPHONE>
+    <PHN_ID>1</PHN_ID>
+    <SUB_ID />
+    <USAGE_CD>5</USAGE_CD>
+    <PHN_TYP>1</PHN_TYP>
+    <SEQ_ID>1</SEQ_ID>
+    <CNTRY_CD />
+    <AREA_CD>503</AREA_CD>
+    <PHN_NBR>7220800</PHN_NBR>
+    <EXTN />
+    <ENT_TYP>1</ENT_TYP>
+  </TELEPHONE>
+  <TELEPHONE>
+    <PHN_ID>1</PHN_ID>
+    <SUB_ID />
+    <USAGE_CD>5</USAGE_CD>
+    <PHN_TYP>1</PHN_TYP>
+    <SEQ_ID>2</SEQ_ID>
+    <CNTRY_CD />
+    <AREA_CD>800</AREA_CD>
+    <PHN_NBR>8007498</PHN_NBR>
+    <EXTN />
+    <ENT_TYP>1</ENT_TYP>
+  </TELEPHONE>
+  <TELEPHONE>
+    <PHN_ID>1</PHN_ID>
+    <SUB_ID>&lt;not used&gt;</SUB_ID>
+    <USAGE_CD>1</USAGE_CD>
+    <PHN_TYP>1</PHN_TYP>
+    <SEQ_ID>1</SEQ_ID>
+    <CNTRY_CD />
+    <AREA_CD>971</AREA_CD>
+    <PHN_NBR>2042298</PHN_NBR>
+    <EXTN xml:space="preserve"> </EXTN>
+    <ENT_TYP>2</ENT_TYP>
+  </TELEPHONE>
+  <TELEPHONE>
+    <PHN_ID>1</PHN_ID>
+    <SUB_ID>0</SUB_ID>
+    <USAGE_CD>4</USAGE_CD>
+    <PHN_TYP>1</PHN_TYP>
+    <SEQ_ID>0</SEQ_ID>
+    <PHN_NBR />
+    <ENT_TYP>3</ENT_TYP>
+  </TELEPHONE>
+  <TELEPHONE>
+    <PHN_ID>70</PHN_ID>
+    <SUB_ID>&lt;not used&gt;</SUB_ID>
+    <USAGE_CD>1</USAGE_CD>
+    <PHN_TYP>1</PHN_TYP>
+    <SEQ_ID>1</SEQ_ID>
+    <CNTRY_CD />
+    <AREA_CD>503</AREA_CD>
+    <PHN_NBR>4737162</PHN_NBR>
+    <EXTN xml:space="preserve"> </EXTN>
+    <ENT_TYP>2</ENT_TYP>
+  </TELEPHONE>
+</TELEPHONEExport>

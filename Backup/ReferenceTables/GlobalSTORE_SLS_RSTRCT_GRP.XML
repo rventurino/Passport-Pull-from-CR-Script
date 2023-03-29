@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<SLS_RSTRCT_GRPExport>
+  <xs:schema id="SLS_RSTRCT_GRPExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="SLS_RSTRCT_GRPExport" msdata:IsDataSet="true" msdata:MainDataTable="SLS_RSTRCT_GRP" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="SLS_RSTRCT_GRP">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SLS_RSTRCT_GRP" type="xs:int" minOccurs="0" />
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="DESCR_CS_TXT_ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</SLS_RSTRCT_GRPExport>

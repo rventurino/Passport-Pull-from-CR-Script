@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<STOREExport>
+  <xs:schema id="STOREExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="STOREExport" msdata:IsDataSet="true" msdata:MainDataTable="STORE" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="STORE">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DFLT_SAFE_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="STR_NM" type="xs:string" minOccurs="0" />
+                <xs:element name="RTL_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="DC_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="HQ_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="DFLT_DC" type="xs:int" minOccurs="0" />
+                <xs:element name="TRNF_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="RCVD_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="RMA_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="STR_CD" type="xs:string" minOccurs="0" />
+                <xs:element name="TAX_ID_NBR" type="xs:string" minOccurs="0" />
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="DFLT_BNK_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="DFLT_BNK_ACCT_NBR" type="xs:string" minOccurs="0" />
+                <xs:element name="CURR_SYM" type="xs:string" minOccurs="0" />
+                <xs:element name="FSCL_END_DT" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="STRT_OF_WK" type="xs:short" minOccurs="0" />
+                <xs:element name="INCLUDE_TAX_CD_FG" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <STORE>
+    <DFLT_SAFE_ID />
+    <STR_NM>Space Age West Linn</STR_NM>
+    <RTL_FG>1</RTL_FG>
+    <DC_FG>0</DC_FG>
+    <HQ_FG>0</HQ_FG>
+    <DFLT_DC>0</DFLT_DC>
+    <TRNF_FG>0</TRNF_FG>
+    <RCVD_FG>0</RCVD_FG>
+    <RMA_FG>0</RMA_FG>
+    <STR_CD>.</STR_CD>
+    <TAX_ID_NBR xml:space="preserve"> </TAX_ID_NBR>
+    <STR_ID>1</STR_ID>
+    <DFLT_BNK_ID>1</DFLT_BNK_ID>
+    <DFLT_BNK_ACCT_NBR>094010</DFLT_BNK_ACCT_NBR>
+    <CURR_SYM xml:space="preserve"> </CURR_SYM>
+    <FSCL_END_DT>1900-01-01T00:00:00-08:00</FSCL_END_DT>
+    <STRT_OF_WK>0</STRT_OF_WK>
+    <INCLUDE_TAX_CD_FG>0</INCLUDE_TAX_CD_FG>
+  </STORE>
+</STOREExport>

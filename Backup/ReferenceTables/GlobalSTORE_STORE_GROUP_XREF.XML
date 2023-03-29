@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<STORE_GROUP_XREFExport>
+  <xs:schema id="STORE_GROUP_XREFExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="STORE_GROUP_XREFExport" msdata:IsDataSet="true" msdata:MainDataTable="STORE_GROUP_XREF" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="STORE_GROUP_XREF">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STR_GRP_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</STORE_GROUP_XREFExport>

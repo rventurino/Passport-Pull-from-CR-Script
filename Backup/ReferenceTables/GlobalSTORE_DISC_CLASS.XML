@@ -1,0 +1,173 @@
+<?xml version="1.0" standalone="yes"?>
+<DISC_CLASSExport>
+  <xs:schema id="DISC_CLASSExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="DISC_CLASSExport" msdata:IsDataSet="true" msdata:MainDataTable="DISC_CLASS" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DISC_CLASS">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DISC_CLSS_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="DISC_CLSS_DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="DISC_TRAN_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="MNL_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="DISC_QCODE_ALL" type="xs:short" minOccurs="0" />
+                <xs:element name="ITM_ORD_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="DISC_LVL" type="xs:short" minOccurs="0" />
+                <xs:element name="EXCL_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="REDUCTION_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="CALLBCK_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="CONTINUITY_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="CS_TXT_ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DISC_CLASS>
+    <DISC_CLSS_ID>999</DISC_CLSS_ID>
+    <STR_ID>1</STR_ID>
+    <DISC_CLSS_DESCR>Manual Drystock Discounts</DISC_CLSS_DESCR>
+    <DISC_TRAN_CD>0</DISC_TRAN_CD>
+    <MNL_FG>1</MNL_FG>
+    <DISC_QCODE_ALL>0</DISC_QCODE_ALL>
+    <ITM_ORD_CD>0</ITM_ORD_CD>
+    <DISC_LVL>0</DISC_LVL>
+    <EXCL_CD>0</EXCL_CD>
+    <REDUCTION_CD>1</REDUCTION_CD>
+    <CALLBCK_CD>0</CALLBCK_CD>
+  </DISC_CLASS>
+  <DISC_CLASS>
+    <DISC_CLSS_ID>1000</DISC_CLSS_ID>
+    <STR_ID>1</STR_ID>
+    <DISC_CLSS_DESCR>Manual Drystock Discounts</DISC_CLSS_DESCR>
+    <DISC_TRAN_CD>0</DISC_TRAN_CD>
+    <MNL_FG>1</MNL_FG>
+    <DISC_QCODE_ALL>0</DISC_QCODE_ALL>
+    <ITM_ORD_CD>0</ITM_ORD_CD>
+    <DISC_LVL>0</DISC_LVL>
+    <EXCL_CD>0</EXCL_CD>
+    <REDUCTION_CD>0</REDUCTION_CD>
+    <CALLBCK_CD>0</CALLBCK_CD>
+  </DISC_CLASS>
+  <DISC_CLASS>
+    <DISC_CLSS_ID>1001</DISC_CLSS_ID>
+    <STR_ID>1</STR_ID>
+    <DISC_CLSS_DESCR>Manual Fuel Discounts</DISC_CLSS_DESCR>
+    <DISC_TRAN_CD>0</DISC_TRAN_CD>
+    <MNL_FG>1</MNL_FG>
+    <DISC_QCODE_ALL>0</DISC_QCODE_ALL>
+    <ITM_ORD_CD>0</ITM_ORD_CD>
+    <DISC_LVL>0</DISC_LVL>
+    <EXCL_CD>0</EXCL_CD>
+    <REDUCTION_CD>0</REDUCTION_CD>
+    <CALLBCK_CD>0</CALLBCK_CD>
+  </DISC_CLASS>
+  <DISC_CLASS>
+    <DISC_CLSS_ID>1002</DISC_CLSS_ID>
+    <STR_ID>1</STR_ID>
+    <DISC_CLSS_DESCR>CRIND Discounts</DISC_CLSS_DESCR>
+    <DISC_TRAN_CD>0</DISC_TRAN_CD>
+    <MNL_FG>1</MNL_FG>
+    <DISC_QCODE_ALL>0</DISC_QCODE_ALL>
+    <ITM_ORD_CD>0</ITM_ORD_CD>
+    <DISC_LVL>0</DISC_LVL>
+    <EXCL_CD>0</EXCL_CD>
+    <REDUCTION_CD>0</REDUCTION_CD>
+    <CALLBCK_CD>0</CALLBCK_CD>
+  </DISC_CLASS>
+  <DISC_CLASS>
+    <DISC_CLSS_ID>1999</DISC_CLSS_ID>
+    <STR_ID>1</STR_ID>
+    <DISC_CLSS_DESCR>Third Party Loyalty Discount</DISC_CLSS_DESCR>
+    <DISC_TRAN_CD>0</DISC_TRAN_CD>
+    <MNL_FG>1</MNL_FG>
+    <DISC_QCODE_ALL>0</DISC_QCODE_ALL>
+    <ITM_ORD_CD>0</ITM_ORD_CD>
+    <DISC_LVL>0</DISC_LVL>
+    <EXCL_CD>0</EXCL_CD>
+    <REDUCTION_CD>0</REDUCTION_CD>
+    <CALLBCK_CD>0</CALLBCK_CD>
+  </DISC_CLASS>
+  <DISC_CLASS>
+    <DISC_CLSS_ID>2000</DISC_CLSS_ID>
+    <STR_ID>1</STR_ID>
+    <DISC_CLSS_DESCR>Auto Fuel Discount By Cash</DISC_CLSS_DESCR>
+    <DISC_TRAN_CD>0</DISC_TRAN_CD>
+    <MNL_FG>0</MNL_FG>
+    <DISC_QCODE_ALL>0</DISC_QCODE_ALL>
+    <ITM_ORD_CD>0</ITM_ORD_CD>
+    <DISC_LVL>0</DISC_LVL>
+    <EXCL_CD>0</EXCL_CD>
+    <REDUCTION_CD>0</REDUCTION_CD>
+    <CALLBCK_CD>1</CALLBCK_CD>
+  </DISC_CLASS>
+  <DISC_CLASS>
+    <DISC_CLSS_ID>2001</DISC_CLSS_ID>
+    <STR_ID>1</STR_ID>
+    <DISC_CLSS_DESCR>Auto Fuel Discount By Card Type</DISC_CLSS_DESCR>
+    <DISC_TRAN_CD>0</DISC_TRAN_CD>
+    <MNL_FG>0</MNL_FG>
+    <DISC_QCODE_ALL>0</DISC_QCODE_ALL>
+    <ITM_ORD_CD>0</ITM_ORD_CD>
+    <DISC_LVL>0</DISC_LVL>
+    <EXCL_CD>0</EXCL_CD>
+    <REDUCTION_CD>0</REDUCTION_CD>
+    <CALLBCK_CD>1</CALLBCK_CD>
+  </DISC_CLASS>
+  <DISC_CLASS>
+    <DISC_CLSS_ID>2002</DISC_CLSS_ID>
+    <STR_ID>1</STR_ID>
+    <DISC_CLSS_DESCR>Auto Fuel Discount By Car Wash</DISC_CLSS_DESCR>
+    <DISC_TRAN_CD>0</DISC_TRAN_CD>
+    <MNL_FG>0</MNL_FG>
+    <DISC_QCODE_ALL>0</DISC_QCODE_ALL>
+    <ITM_ORD_CD>0</ITM_ORD_CD>
+    <DISC_LVL>0</DISC_LVL>
+    <EXCL_CD>0</EXCL_CD>
+    <REDUCTION_CD>0</REDUCTION_CD>
+    <CALLBCK_CD>1</CALLBCK_CD>
+  </DISC_CLASS>
+  <DISC_CLASS>
+    <DISC_CLSS_ID>2003</DISC_CLSS_ID>
+    <STR_ID>1</STR_ID>
+    <DISC_CLSS_DESCR>Car Wash Discount by Fuel</DISC_CLSS_DESCR>
+    <DISC_TRAN_CD>0</DISC_TRAN_CD>
+    <MNL_FG>0</MNL_FG>
+    <DISC_QCODE_ALL>0</DISC_QCODE_ALL>
+    <ITM_ORD_CD>0</ITM_ORD_CD>
+    <DISC_LVL>0</DISC_LVL>
+    <EXCL_CD>0</EXCL_CD>
+    <REDUCTION_CD>0</REDUCTION_CD>
+    <CALLBCK_CD>1</CALLBCK_CD>
+  </DISC_CLASS>
+  <DISC_CLASS>
+    <DISC_CLSS_ID>2004</DISC_CLSS_ID>
+    <STR_ID>1</STR_ID>
+    <DISC_CLSS_DESCR>Mix And Match</DISC_CLSS_DESCR>
+    <DISC_TRAN_CD>1</DISC_TRAN_CD>
+    <MNL_FG>0</MNL_FG>
+    <DISC_QCODE_ALL>0</DISC_QCODE_ALL>
+    <ITM_ORD_CD>20</ITM_ORD_CD>
+    <DISC_LVL>0</DISC_LVL>
+    <EXCL_CD>0</EXCL_CD>
+    <REDUCTION_CD>0</REDUCTION_CD>
+    <CALLBCK_CD>1</CALLBCK_CD>
+  </DISC_CLASS>
+  <DISC_CLASS>
+    <DISC_CLSS_ID>2005</DISC_CLSS_ID>
+    <STR_ID>1</STR_ID>
+    <DISC_CLSS_DESCR>Combo</DISC_CLSS_DESCR>
+    <DISC_TRAN_CD>1</DISC_TRAN_CD>
+    <MNL_FG>0</MNL_FG>
+    <DISC_QCODE_ALL>0</DISC_QCODE_ALL>
+    <ITM_ORD_CD>20</ITM_ORD_CD>
+    <DISC_LVL>0</DISC_LVL>
+    <EXCL_CD>0</EXCL_CD>
+    <REDUCTION_CD>0</REDUCTION_CD>
+    <CALLBCK_CD>1</CALLBCK_CD>
+  </DISC_CLASS>
+</DISC_CLASSExport>

@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<MDSE_ATTRB_XREFExport>
+  <xs:schema id="MDSE_ATTRB_XREFExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="MDSE_ATTRB_XREFExport" msdata:IsDataSet="true" msdata:MainDataTable="MDSE_ATTRB_XREF" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="MDSE_ATTRB_XREF">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MDSE_XREF_NO" type="xs:int" minOccurs="0" />
+                <xs:element name="MDSE_ATTRB_ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</MDSE_ATTRB_XREFExport>

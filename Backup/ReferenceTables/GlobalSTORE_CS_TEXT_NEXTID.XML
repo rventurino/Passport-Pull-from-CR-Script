@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<CS_TEXT_NEXTIDExport>
+  <xs:schema id="CS_TEXT_NEXTIDExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="CS_TEXT_NEXTIDExport" msdata:IsDataSet="true" msdata:MainDataTable="CS_TEXT_NEXTID" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="CS_TEXT_NEXTID">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NEXT_ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <CS_TEXT_NEXTID>
+    <NEXT_ID>4116</NEXT_ID>
+  </CS_TEXT_NEXTID>
+</CS_TEXT_NEXTIDExport>

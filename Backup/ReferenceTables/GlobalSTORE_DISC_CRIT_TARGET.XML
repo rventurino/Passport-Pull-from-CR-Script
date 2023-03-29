@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<DISC_CRIT_TARGETExport>
+  <xs:schema id="DISC_CRIT_TARGETExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="DISC_CRIT_TARGETExport" msdata:IsDataSet="true" msdata:MainDataTable="DISC_CRIT_TARGET" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DISC_CRIT_TARGET">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="DISC_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="SEQ_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="SUB_SEQ_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="DISC_SET_ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</DISC_CRIT_TARGETExport>

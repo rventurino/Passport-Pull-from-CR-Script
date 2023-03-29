@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<g_fuel_tankmonitorExport>
+  <xs:schema id="g_fuel_tankmonitorExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="g_fuel_tankmonitorExport" msdata:IsDataSet="true" msdata:MainDataTable="g_fuel_tankmonitor" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="g_fuel_tankmonitor">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TankMonitorID" type="xs:int" minOccurs="0" />
+                <xs:element name="SoftwareVersion" type="xs:string" minOccurs="0" />
+                <xs:element name="Manufacturername" type="xs:string" minOccurs="0" />
+                <xs:element name="HardwareAddress" type="xs:int" minOccurs="0" />
+                <xs:element name="ModelNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="SerialNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="Online" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="NumberOfProbes" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="Port" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="Baudrate" type="xs:int" minOccurs="0" />
+                <xs:element name="Parity" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="DataBits" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="Stopbits" type="xs:unsignedByte" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</g_fuel_tankmonitorExport>

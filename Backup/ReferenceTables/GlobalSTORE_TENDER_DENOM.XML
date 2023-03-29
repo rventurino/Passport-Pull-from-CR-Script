@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<TENDER_DENOMExport>
+  <xs:schema id="TENDER_DENOMExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="TENDER_DENOMExport" msdata:IsDataSet="true" msdata:MainDataTable="TENDER_DENOM" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TENDER_DENOM">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CURR_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="DENOM_VALUE" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DENOM_DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="DENOM_SYM" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</TENDER_DENOMExport>

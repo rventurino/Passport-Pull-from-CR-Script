@@ -1,0 +1,92 @@
+<?xml version="1.0" standalone="yes"?>
+<CS_PRCH_RSTR_RULEExport>
+  <xs:schema id="CS_PRCH_RSTR_RULEExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="CS_PRCH_RSTR_RULEExport" msdata:IsDataSet="true" msdata:MainDataTable="CS_PRCH_RSTR_RULE" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="CS_PRCH_RSTR_RULE">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PRCH_RSTRCT_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="PRCH_RSTRCT_GRP_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="AGE" type="xs:short" minOccurs="0" />
+                <xs:element name="PREFER_SCAN" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MANUAL_ENTRY" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MGR_OVERRIDE" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DEFAULT_BTN" type="xs:boolean" minOccurs="0" />
+                <xs:element name="AGE_CONF" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <CS_PRCH_RSTR_RULE>
+    <PRCH_RSTRCT_CD>2</PRCH_RSTRCT_CD>
+    <PRCH_RSTRCT_GRP_ID>1001</PRCH_RSTRCT_GRP_ID>
+    <STR_ID>1</STR_ID>
+    <AGE>18</AGE>
+    <PREFER_SCAN>false</PREFER_SCAN>
+    <MANUAL_ENTRY>true</MANUAL_ENTRY>
+    <MGR_OVERRIDE>false</MGR_OVERRIDE>
+    <DEFAULT_BTN>false</DEFAULT_BTN>
+    <AGE_CONF>false</AGE_CONF>
+  </CS_PRCH_RSTR_RULE>
+  <CS_PRCH_RSTR_RULE>
+    <PRCH_RSTRCT_CD>2</PRCH_RSTRCT_CD>
+    <PRCH_RSTRCT_GRP_ID>1002</PRCH_RSTRCT_GRP_ID>
+    <STR_ID>1</STR_ID>
+    <AGE>21</AGE>
+    <PREFER_SCAN>false</PREFER_SCAN>
+    <MANUAL_ENTRY>true</MANUAL_ENTRY>
+    <MGR_OVERRIDE>false</MGR_OVERRIDE>
+    <DEFAULT_BTN>false</DEFAULT_BTN>
+    <AGE_CONF>false</AGE_CONF>
+  </CS_PRCH_RSTR_RULE>
+  <CS_PRCH_RSTR_RULE>
+    <PRCH_RSTRCT_CD>2</PRCH_RSTRCT_CD>
+    <PRCH_RSTRCT_GRP_ID>1003</PRCH_RSTRCT_GRP_ID>
+    <STR_ID>1</STR_ID>
+    <AGE>19</AGE>
+    <PREFER_SCAN>false</PREFER_SCAN>
+    <MANUAL_ENTRY>true</MANUAL_ENTRY>
+    <MGR_OVERRIDE>false</MGR_OVERRIDE>
+    <DEFAULT_BTN>false</DEFAULT_BTN>
+    <AGE_CONF>false</AGE_CONF>
+  </CS_PRCH_RSTR_RULE>
+  <CS_PRCH_RSTR_RULE>
+    <PRCH_RSTRCT_CD>3</PRCH_RSTRCT_CD>
+    <PRCH_RSTRCT_GRP_ID>22</PRCH_RSTRCT_GRP_ID>
+    <STR_ID>1</STR_ID>
+    <AGE>18</AGE>
+    <PREFER_SCAN>true</PREFER_SCAN>
+    <MANUAL_ENTRY>true</MANUAL_ENTRY>
+    <MGR_OVERRIDE>false</MGR_OVERRIDE>
+    <DEFAULT_BTN>true</DEFAULT_BTN>
+    <AGE_CONF>false</AGE_CONF>
+  </CS_PRCH_RSTR_RULE>
+  <CS_PRCH_RSTR_RULE>
+    <PRCH_RSTRCT_CD>3</PRCH_RSTRCT_CD>
+    <PRCH_RSTRCT_GRP_ID>23</PRCH_RSTRCT_GRP_ID>
+    <STR_ID>1</STR_ID>
+    <AGE>21</AGE>
+    <PREFER_SCAN>true</PREFER_SCAN>
+    <MANUAL_ENTRY>true</MANUAL_ENTRY>
+    <MGR_OVERRIDE>false</MGR_OVERRIDE>
+    <DEFAULT_BTN>true</DEFAULT_BTN>
+    <AGE_CONF>false</AGE_CONF>
+  </CS_PRCH_RSTR_RULE>
+  <CS_PRCH_RSTR_RULE>
+    <PRCH_RSTRCT_CD>3</PRCH_RSTRCT_CD>
+    <PRCH_RSTRCT_GRP_ID>24</PRCH_RSTRCT_GRP_ID>
+    <STR_ID>1</STR_ID>
+    <AGE>19</AGE>
+    <PREFER_SCAN>true</PREFER_SCAN>
+    <MANUAL_ENTRY>true</MANUAL_ENTRY>
+    <MGR_OVERRIDE>false</MGR_OVERRIDE>
+    <DEFAULT_BTN>true</DEFAULT_BTN>
+    <AGE_CONF>false</AGE_CONF>
+  </CS_PRCH_RSTR_RULE>
+</CS_PRCH_RSTR_RULEExport>

@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<g_fuel_productExport>
+  <xs:schema id="g_fuel_productExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="g_fuel_productExport" msdata:IsDataSet="true" msdata:MainDataTable="g_fuel_product" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="g_fuel_product">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ProductID" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="ProductName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <g_fuel_product>
+    <ProductID>1</ProductID>
+    <ProductName>REGULAR</ProductName>
+  </g_fuel_product>
+  <g_fuel_product>
+    <ProductID>2</ProductID>
+    <ProductName>CLEAR SUPER</ProductName>
+  </g_fuel_product>
+  <g_fuel_product>
+    <ProductID>3</ProductID>
+    <ProductName>PREMIUM</ProductName>
+  </g_fuel_product>
+</g_fuel_productExport>

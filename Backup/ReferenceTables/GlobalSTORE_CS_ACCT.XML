@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="yes"?>
+<CS_ACCTExport>
+  <xs:schema id="CS_ACCTExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="CS_ACCTExport" msdata:IsDataSet="true" msdata:MainDataTable="CS_ACCT" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="CS_ACCT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ACCT_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="ACCT_NM" type="xs:string" minOccurs="0" />
+                <xs:element name="FIX_AMT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MIN_AMT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="WARNING_LMT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="FLOOR_LMT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CURR_AMT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="RCPT_PRNT_AMT_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="ACCT_TYPE" type="xs:int" minOccurs="0" />
+                <xs:element name="CRD_TRACK" type="xs:int" minOccurs="0" />
+                <xs:element name="CRD_ISSUERNUM_POS" type="xs:int" minOccurs="0" />
+                <xs:element name="CRD_ISSUERNUM" type="xs:string" minOccurs="0" />
+                <xs:element name="CRD_ACCTNUM_POS" type="xs:int" minOccurs="0" />
+                <xs:element name="CRD_ACCTNUM_RANGE_START" type="xs:string" minOccurs="0" />
+                <xs:element name="CRD_ACCTNUM_RANGE_END" type="xs:string" minOccurs="0" />
+                <xs:element name="CRD_EXPDT_POS" type="xs:int" minOccurs="0" />
+                <xs:element name="CRD_EXPDT_FORMAT" type="xs:string" minOccurs="0" />
+                <xs:element name="CRD_VALIDATE_EXPDT" type="xs:boolean" minOccurs="0" />
+                <xs:element name="CRD_FUELONLY" type="xs:boolean" minOccurs="0" />
+                <xs:element name="CRD_FUELONLYCODE_POS" type="xs:int" minOccurs="0" />
+                <xs:element name="CRD_FUELONLYCODE" type="xs:string" minOccurs="0" />
+                <xs:element name="CRD_CRINDAUTHAMT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ISACTIVE" type="xs:boolean" minOccurs="0" />
+                <xs:element name="CRD_FUELDISC_GRP_ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <CS_ACCT>
+    <ACCT_ID>1</ACCT_ID>
+    <ACCT_NM>Station Use</ACCT_NM>
+    <FIX_AMT>0.0000</FIX_AMT>
+    <MIN_AMT>10000.0000</MIN_AMT>
+    <WARNING_LMT>9999.0000</WARNING_LMT>
+    <FLOOR_LMT>50.0000</FLOOR_LMT>
+    <CURR_AMT>29.3500</CURR_AMT>
+    <RCPT_PRNT_AMT_FG>0</RCPT_PRNT_AMT_FG>
+    <ACCT_TYPE>1</ACCT_TYPE>
+    <CRD_TRACK>0</CRD_TRACK>
+    <CRD_ISSUERNUM_POS>0</CRD_ISSUERNUM_POS>
+    <CRD_ISSUERNUM />
+    <CRD_ACCTNUM_POS>0</CRD_ACCTNUM_POS>
+    <CRD_ACCTNUM_RANGE_START />
+    <CRD_ACCTNUM_RANGE_END />
+    <CRD_EXPDT_POS>0</CRD_EXPDT_POS>
+    <CRD_EXPDT_FORMAT>YYMM</CRD_EXPDT_FORMAT>
+    <CRD_VALIDATE_EXPDT>false</CRD_VALIDATE_EXPDT>
+    <CRD_FUELONLY>false</CRD_FUELONLY>
+    <CRD_FUELONLYCODE_POS>0</CRD_FUELONLYCODE_POS>
+    <CRD_FUELONLYCODE>0 </CRD_FUELONLYCODE>
+    <CRD_CRINDAUTHAMT>0.0000</CRD_CRINDAUTHAMT>
+    <ISACTIVE>true</ISACTIVE>
+    <CRD_FUELDISC_GRP_ID>-1</CRD_FUELDISC_GRP_ID>
+  </CS_ACCT>
+</CS_ACCTExport>

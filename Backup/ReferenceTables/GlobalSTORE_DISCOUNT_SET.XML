@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<DISCOUNT_SETExport>
+  <xs:schema id="DISCOUNT_SETExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="DISCOUNT_SETExport" msdata:IsDataSet="true" msdata:MainDataTable="DISCOUNT_SET" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DISCOUNT_SET">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DISC_SET_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="DISC_SET_TYP" type="xs:short" minOccurs="0" />
+                <xs:element name="PLU_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="PRC_GRP_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="MDSE_XREF_NO" type="xs:int" minOccurs="0" />
+                <xs:element name="PLU_QUAL_TYP" type="xs:int" minOccurs="0" />
+                <xs:element name="ALT_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="SUB_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="DG_ID" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DISCOUNT_SET>
+    <DISC_SET_ID>0</DISC_SET_ID>
+    <DESCR>Dummy</DESCR>
+    <DISC_SET_TYP>0</DISC_SET_TYP>
+    <ALT_CD>0</ALT_CD>
+    <STR_ID>1</STR_ID>
+  </DISCOUNT_SET>
+</DISCOUNT_SETExport>

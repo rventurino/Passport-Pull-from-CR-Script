@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes"?>
+<CS_DEPT_MENUExport>
+  <xs:schema id="CS_DEPT_MENUExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="CS_DEPT_MENUExport" msdata:IsDataSet="true" msdata:MainDataTable="CS_DEPT_MENU" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="CS_DEPT_MENU">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MENU_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="STR_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="RGST_GRP_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="LEVEL_NO" type="xs:short" minOccurs="0" />
+                <xs:element name="CS_TXT_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="START_TIME" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="END_TIME" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="BACKGRD_NO" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <CS_DEPT_MENU>
+    <MENU_ID>1</MENU_ID>
+    <STR_ID>1</STR_ID>
+    <RGST_GRP_ID>0</RGST_GRP_ID>
+    <LEVEL_NO>1</LEVEL_NO>
+    <CS_TXT_ID>4100</CS_TXT_ID>
+    <START_TIME>1900-01-01T00:00:00-08:00</START_TIME>
+    <END_TIME>1900-01-01T00:00:00-08:00</END_TIME>
+    <BACKGRD_NO>0</BACKGRD_NO>
+  </CS_DEPT_MENU>
+  <CS_DEPT_MENU>
+    <MENU_ID>999</MENU_ID>
+    <STR_ID>1</STR_ID>
+    <RGST_GRP_ID>0</RGST_GRP_ID>
+    <LEVEL_NO>1</LEVEL_NO>
+    <CS_TXT_ID>3759</CS_TXT_ID>
+    <START_TIME>1900-01-01T00:00:00-08:00</START_TIME>
+    <END_TIME>1900-01-01T00:00:00-08:00</END_TIME>
+  </CS_DEPT_MENU>
+</CS_DEPT_MENUExport>

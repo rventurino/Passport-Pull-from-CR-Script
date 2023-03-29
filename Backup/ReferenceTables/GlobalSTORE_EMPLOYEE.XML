@@ -1,0 +1,464 @@
+<?xml version="1.0" standalone="yes"?>
+<EMPLOYEEExport>
+  <xs:schema id="EMPLOYEEExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="EMPLOYEEExport" msdata:IsDataSet="true" msdata:MainDataTable="EMPLOYEE" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="EMPLOYEE">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="EMP_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="CUST_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="SHPR_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="DG_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="MNL_PRC_AUTH" type="xs:short" minOccurs="0" />
+                <xs:element name="OPER_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="LST_NM" type="xs:string" minOccurs="0" />
+                <xs:element name="FRST_NM" type="xs:string" minOccurs="0" />
+                <xs:element name="MDL_INTL" type="xs:string" minOccurs="0" />
+                <xs:element name="HIRE_DT" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="TERM_DT" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="LANG_CD" type="xs:int" minOccurs="0" />
+                <xs:element name="DFLT_LTILL_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="PRSNL_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="BIRTH_DT" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="HAND_PREF" type="xs:int" minOccurs="0" />
+                <xs:element name="KEYPAD_TYPE" type="xs:int" minOccurs="0" />
+                <xs:element name="CS_OVERRIDE_OPT_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="CS_BLIND_BAL_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="CS_SYS_OP_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="CLOCK_IN_OUT_REQ" type="xs:boolean" minOccurs="0" />
+                <xs:element name="CS_THEME" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <EMPLOYEE>
+    <EMP_ID>0000</EMP_ID>
+    <CUST_ID>0000</CUST_ID>
+    <SHPR_ID>0000</SHPR_ID>
+    <DG_ID xml:space="preserve"> </DG_ID>
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>0000</OPER_ID>
+    <LST_NM>Administrator</LST_NM>
+    <FRST_NM>BackDoor</FRST_NM>
+    <MDL_INTL xml:space="preserve"> </MDL_INTL>
+    <HIRE_DT>1997-09-24T00:00:00-07:00</HIRE_DT>
+    <LANG_CD>1</LANG_CD>
+    <DFLT_LTILL_ID>1</DFLT_LTILL_ID>
+    <PRSNL_ID>0000</PRSNL_ID>
+    <BIRTH_DT>1970-01-01T00:00:00-08:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>0</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>1</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>1</EMP_ID>
+    <CUST_ID />
+    <SHPR_ID />
+    <DG_ID />
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>1</OPER_ID>
+    <LST_NM>camacho</LST_NM>
+    <FRST_NM>Maibelin</FRST_NM>
+    <MDL_INTL />
+    <HIRE_DT>2021-02-03T15:32:23-08:00</HIRE_DT>
+    <LANG_CD>1</LANG_CD>
+    <DFLT_LTILL_ID>000000000001</DFLT_LTILL_ID>
+    <PRSNL_ID />
+    <BIRTH_DT>1980-06-02T00:00:00-07:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>1</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>0</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>10</EMP_ID>
+    <CUST_ID />
+    <SHPR_ID />
+    <DG_ID />
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>10</OPER_ID>
+    <LST_NM>Quintero</LST_NM>
+    <FRST_NM>Andrea </FRST_NM>
+    <MDL_INTL />
+    <HIRE_DT>2020-10-01T13:55:21-07:00</HIRE_DT>
+    <LANG_CD>1</LANG_CD>
+    <DFLT_LTILL_ID>000000000010</DFLT_LTILL_ID>
+    <PRSNL_ID />
+    <BIRTH_DT>1979-06-23T00:00:00-07:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>1</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>0</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>10000</EMP_ID>
+    <CUST_ID>10000</CUST_ID>
+    <SHPR_ID>1</SHPR_ID>
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>10000</OPER_ID>
+    <LST_NM>CrindServers</LST_NM>
+    <FRST_NM>PrePost</FRST_NM>
+    <MDL_INTL>x</MDL_INTL>
+    <HIRE_DT>1990-01-01T00:00:00-08:00</HIRE_DT>
+    <LANG_CD>0</LANG_CD>
+    <PRSNL_ID>10000</PRSNL_ID>
+    <BIRTH_DT>1970-01-01T00:00:00-08:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>0</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>1</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>10001</EMP_ID>
+    <CUST_ID>10001</CUST_ID>
+    <SHPR_ID>1</SHPR_ID>
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>10001</OPER_ID>
+    <LST_NM>CrindServers</LST_NM>
+    <FRST_NM>Post</FRST_NM>
+    <MDL_INTL>x</MDL_INTL>
+    <HIRE_DT>1990-01-01T00:00:00-08:00</HIRE_DT>
+    <LANG_CD>0</LANG_CD>
+    <PRSNL_ID>10001</PRSNL_ID>
+    <BIRTH_DT>1970-01-01T00:00:00-08:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>0</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>1</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>11</EMP_ID>
+    <CUST_ID />
+    <SHPR_ID />
+    <DG_ID />
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>11</OPER_ID>
+    <LST_NM>Khan</LST_NM>
+    <FRST_NM>Omar</FRST_NM>
+    <MDL_INTL />
+    <HIRE_DT>2020-10-01T13:55:54-07:00</HIRE_DT>
+    <LANG_CD>1</LANG_CD>
+    <DFLT_LTILL_ID>000000000011</DFLT_LTILL_ID>
+    <PRSNL_ID />
+    <BIRTH_DT>1998-07-25T00:00:00-07:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>1</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>0</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>12</EMP_ID>
+    <CUST_ID />
+    <SHPR_ID />
+    <DG_ID />
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>12</OPER_ID>
+    <LST_NM>Khan</LST_NM>
+    <FRST_NM>Harris</FRST_NM>
+    <MDL_INTL />
+    <HIRE_DT>2020-10-01T13:56:35-07:00</HIRE_DT>
+    <LANG_CD>1</LANG_CD>
+    <DFLT_LTILL_ID>000000000012</DFLT_LTILL_ID>
+    <PRSNL_ID />
+    <BIRTH_DT>1997-04-19T00:00:00-07:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>1</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>0</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>15</EMP_ID>
+    <CUST_ID />
+    <SHPR_ID />
+    <DG_ID />
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>15</OPER_ID>
+    <LST_NM>Bodi</LST_NM>
+    <FRST_NM>Kyle</FRST_NM>
+    <MDL_INTL />
+    <HIRE_DT>2020-11-29T11:20:46-08:00</HIRE_DT>
+    <LANG_CD>1</LANG_CD>
+    <DFLT_LTILL_ID>000000000015</DFLT_LTILL_ID>
+    <PRSNL_ID />
+    <BIRTH_DT>2001-12-03T00:00:00-08:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>1</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>0</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>20</EMP_ID>
+    <CUST_ID />
+    <SHPR_ID />
+    <DG_ID />
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>20</OPER_ID>
+    <LST_NM>B</LST_NM>
+    <FRST_NM>Kyle</FRST_NM>
+    <MDL_INTL />
+    <HIRE_DT>2020-11-29T11:29:40-08:00</HIRE_DT>
+    <LANG_CD>1</LANG_CD>
+    <DFLT_LTILL_ID>000000000020</DFLT_LTILL_ID>
+    <PRSNL_ID />
+    <BIRTH_DT>2001-12-03T00:00:00-08:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>1</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>0</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>20000</EMP_ID>
+    <CUST_ID>20000</CUST_ID>
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>20000</OPER_ID>
+    <LST_NM>Attendant</LST_NM>
+    <FRST_NM>Automated</FRST_NM>
+    <HIRE_DT>1950-01-01T00:00:00-08:00</HIRE_DT>
+    <LANG_CD>1</LANG_CD>
+    <PRSNL_ID>20000</PRSNL_ID>
+    <BIRTH_DT>1970-01-01T00:00:00-08:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>0</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>1</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>21</EMP_ID>
+    <CUST_ID />
+    <SHPR_ID />
+    <DG_ID />
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>21</OPER_ID>
+    <LST_NM>1</LST_NM>
+    <FRST_NM>Shift</FRST_NM>
+    <MDL_INTL />
+    <HIRE_DT>2020-10-01T13:58:03-07:00</HIRE_DT>
+    <LANG_CD>1</LANG_CD>
+    <DFLT_LTILL_ID>000000000021</DFLT_LTILL_ID>
+    <PRSNL_ID />
+    <BIRTH_DT>1980-01-01T00:00:00-08:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>1</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>0</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>22</EMP_ID>
+    <CUST_ID />
+    <SHPR_ID />
+    <DG_ID />
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>22</OPER_ID>
+    <LST_NM>2</LST_NM>
+    <FRST_NM>Shift</FRST_NM>
+    <MDL_INTL />
+    <HIRE_DT>2020-10-01T13:57:04-07:00</HIRE_DT>
+    <LANG_CD>1</LANG_CD>
+    <DFLT_LTILL_ID>000000000022</DFLT_LTILL_ID>
+    <PRSNL_ID />
+    <BIRTH_DT>1954-10-07T00:00:00-07:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>1</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>0</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>23</EMP_ID>
+    <CUST_ID />
+    <SHPR_ID />
+    <DG_ID />
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>23</OPER_ID>
+    <LST_NM>3</LST_NM>
+    <FRST_NM>Shift `</FRST_NM>
+    <MDL_INTL />
+    <HIRE_DT>2020-10-01T13:57:37-07:00</HIRE_DT>
+    <LANG_CD>1</LANG_CD>
+    <DFLT_LTILL_ID>000000000023</DFLT_LTILL_ID>
+    <PRSNL_ID />
+    <BIRTH_DT>1954-10-07T00:00:00-07:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>1</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>0</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>256</EMP_ID>
+    <CUST_ID />
+    <SHPR_ID />
+    <DG_ID />
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>256</OPER_ID>
+    <LST_NM>Wartena</LST_NM>
+    <FRST_NM>Darren</FRST_NM>
+    <MDL_INTL />
+    <HIRE_DT>2021-12-09T18:18:44-08:00</HIRE_DT>
+    <LANG_CD>1</LANG_CD>
+    <DFLT_LTILL_ID>000000000256</DFLT_LTILL_ID>
+    <PRSNL_ID />
+    <BIRTH_DT>1994-12-02T00:00:00-08:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>1</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>0</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>30000</EMP_ID>
+    <CUST_ID>30000</CUST_ID>
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>30000</OPER_ID>
+    <LST_NM>Checkout</LST_NM>
+    <FRST_NM>Self</FRST_NM>
+    <HIRE_DT>1950-01-01T00:00:00-08:00</HIRE_DT>
+    <LANG_CD>1</LANG_CD>
+    <PRSNL_ID>30000</PRSNL_ID>
+    <BIRTH_DT>1970-01-01T00:00:00-08:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>0</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>0</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>5</EMP_ID>
+    <CUST_ID />
+    <SHPR_ID />
+    <DG_ID />
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>5</OPER_ID>
+    <LST_NM>Duran</LST_NM>
+    <FRST_NM>Erandy</FRST_NM>
+    <MDL_INTL />
+    <HIRE_DT>2020-10-01T15:39:39-07:00</HIRE_DT>
+    <LANG_CD>1</LANG_CD>
+    <DFLT_LTILL_ID>000000000005</DFLT_LTILL_ID>
+    <PRSNL_ID />
+    <BIRTH_DT>1990-01-21T00:00:00-08:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>1</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>0</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>6</EMP_ID>
+    <CUST_ID />
+    <SHPR_ID />
+    <DG_ID />
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>6</OPER_ID>
+    <LST_NM>S</LST_NM>
+    <FRST_NM>Joe</FRST_NM>
+    <MDL_INTL />
+    <HIRE_DT>2021-12-22T18:47:53-08:00</HIRE_DT>
+    <LANG_CD>1</LANG_CD>
+    <DFLT_LTILL_ID>000000000006</DFLT_LTILL_ID>
+    <PRSNL_ID />
+    <BIRTH_DT>1996-12-06T00:00:00-08:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>1</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>0</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>70</EMP_ID>
+    <CUST_ID />
+    <SHPR_ID />
+    <DG_ID />
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>70</OPER_ID>
+    <LST_NM>Spork</LST_NM>
+    <FRST_NM>Nick</FRST_NM>
+    <MDL_INTL />
+    <HIRE_DT>2021-01-31T17:12:01-08:00</HIRE_DT>
+    <LANG_CD>1</LANG_CD>
+    <DFLT_LTILL_ID>000000000070</DFLT_LTILL_ID>
+    <PRSNL_ID />
+    <BIRTH_DT>1995-01-25T00:00:00-08:00</BIRTH_DT>
+    <HAND_PREF>0</HAND_PREF>
+    <KEYPAD_TYPE>1</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>0</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>0</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>0</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+  <EMPLOYEE>
+    <EMP_ID>91</EMP_ID>
+    <CUST_ID />
+    <SHPR_ID />
+    <DG_ID />
+    <MNL_PRC_AUTH>1</MNL_PRC_AUTH>
+    <OPER_ID>91</OPER_ID>
+    <LST_NM>Manager</LST_NM>
+    <FRST_NM>Area</FRST_NM>
+    <MDL_INTL />
+    <HIRE_DT>2000-11-21T13:44:52-08:00</HIRE_DT>
+    <LANG_CD>1</LANG_CD>
+    <DFLT_LTILL_ID>91</DFLT_LTILL_ID>
+    <PRSNL_ID />
+    <BIRTH_DT>1970-01-01T00:00:00-08:00</BIRTH_DT>
+    <HAND_PREF>1</HAND_PREF>
+    <KEYPAD_TYPE>1</KEYPAD_TYPE>
+    <CS_OVERRIDE_OPT_FG>1</CS_OVERRIDE_OPT_FG>
+    <CS_BLIND_BAL_FG>1</CS_BLIND_BAL_FG>
+    <CS_SYS_OP_FG>0</CS_SYS_OP_FG>
+    <CLOCK_IN_OUT_REQ>true</CLOCK_IN_OUT_REQ>
+    <CS_THEME>-1</CS_THEME>
+  </EMPLOYEE>
+</EMPLOYEEExport>

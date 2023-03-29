@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<MERCHANDISEExport>
+  <xs:schema id="MERCHANDISEExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="MERCHANDISEExport" msdata:IsDataSet="true" msdata:MainDataTable="MERCHANDISE" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="MERCHANDISE">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MDSE_XREF_NO" type="xs:int" minOccurs="0" />
+                <xs:element name="MDSE_STRC_NBR" type="xs:string" minOccurs="0" />
+                <xs:element name="MDSE_STRC_LVL" type="xs:short" minOccurs="0" />
+                <xs:element name="DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="PROF_NBR" type="xs:int" minOccurs="0" />
+                <xs:element name="PROF_TYP" type="xs:short" minOccurs="0" />
+                <xs:element name="TRGT_MRGN" type="xs:double" minOccurs="0" />
+                <xs:element name="PRC_ZN" type="xs:short" minOccurs="0" />
+                <xs:element name="MAX_QTY_LMT" type="xs:short" minOccurs="0" />
+                <xs:element name="ID_RQRD_FG" type="xs:short" minOccurs="0" />
+                <xs:element name="PERPET_INV_CD" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</MERCHANDISEExport>

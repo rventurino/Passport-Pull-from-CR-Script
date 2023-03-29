@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<PLU_QUAL_TYPExport>
+  <xs:schema id="PLU_QUAL_TYPExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="PLU_QUAL_TYPExport" msdata:IsDataSet="true" msdata:MainDataTable="PLU_QUAL_TYP" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PLU_QUAL_TYP">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PLU_QUAL_TYP" type="xs:int" minOccurs="0" />
+                <xs:element name="DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="CS_TXT_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="CS_PACK_QTY" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</PLU_QUAL_TYPExport>

@@ -1,0 +1,115 @@
+<?xml version="1.0" standalone="yes"?>
+<EMPLOYEE_GROUPExport>
+  <xs:schema id="EMPLOYEE_GROUPExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="EMPLOYEE_GROUPExport" msdata:IsDataSet="true" msdata:MainDataTable="EMPLOYEE_GROUP" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="EMPLOYEE_GROUP">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="EMP_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="GRP_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>0000</EMP_ID>
+    <GRP_ID>99</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>1</EMP_ID>
+    <GRP_ID>10005</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>10</EMP_ID>
+    <GRP_ID>10002</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>10000</EMP_ID>
+    <GRP_ID>10000</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>10001</EMP_ID>
+    <GRP_ID>10000</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>11</EMP_ID>
+    <GRP_ID>10002</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>12</EMP_ID>
+    <GRP_ID>10002</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>15</EMP_ID>
+    <GRP_ID>10005</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>20</EMP_ID>
+    <GRP_ID>10005</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>20000</EMP_ID>
+    <GRP_ID>10000</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>21</EMP_ID>
+    <GRP_ID>10005</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>22</EMP_ID>
+    <GRP_ID>10005</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>23</EMP_ID>
+    <GRP_ID>10005</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>256</EMP_ID>
+    <GRP_ID>10005</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>30000</EMP_ID>
+    <GRP_ID>99</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>5</EMP_ID>
+    <GRP_ID>10002</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>6</EMP_ID>
+    <GRP_ID>10003</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>70</EMP_ID>
+    <GRP_ID>10005</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+  <EMPLOYEE_GROUP>
+    <EMP_ID>91</EMP_ID>
+    <GRP_ID>99</GRP_ID>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_GROUP>
+</EMPLOYEE_GROUPExport>

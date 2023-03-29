@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<DISC_TARGETExport>
+  <xs:schema id="DISC_TARGETExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="DISC_TARGETExport" msdata:IsDataSet="true" msdata:MainDataTable="DISC_TARGET" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DISC_TARGET">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="DISC_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="SEQ_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="QTY" type="xs:double" minOccurs="0" />
+                <xs:element name="DISC_SET_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="AMT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CS_PRORATE_VAL" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</DISC_TARGETExport>

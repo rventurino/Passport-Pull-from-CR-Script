@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<CS_REGISTER_OPTIONSExport>
+  <xs:schema id="CS_REGISTER_OPTIONSExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="CS_REGISTER_OPTIONSExport" msdata:IsDataSet="true" msdata:MainDataTable="CS_REGISTER_OPTIONS" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="CS_REGISTER_OPTIONS">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="RGST_GRP_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="RGST_GRP_DESC" type="xs:string" minOccurs="0" />
+                <xs:element name="DESC_CS_TXT_ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <CS_REGISTER_OPTIONS>
+    <STR_ID>1</STR_ID>
+    <RGST_GRP_ID>1</RGST_GRP_ID>
+    <RGST_GRP_DESC>POSGroup1</RGST_GRP_DESC>
+    <DESC_CS_TXT_ID>3624</DESC_CS_TXT_ID>
+  </CS_REGISTER_OPTIONS>
+</CS_REGISTER_OPTIONSExport>

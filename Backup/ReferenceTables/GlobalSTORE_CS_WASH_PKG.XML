@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes"?>
+<CS_WASH_PKGExport>
+  <xs:schema id="CS_WASH_PKGExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="CS_WASH_PKGExport" msdata:IsDataSet="true" msdata:MainDataTable="CS_WASH_PKG" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="CS_WASH_PKG">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="PKG_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+                <xs:element name="PRICE" type="xs:decimal" minOccurs="0" />
+                <xs:element name="AVAILABILITY_CD" type="xs:int" minOccurs="0" />
+                <xs:element name="PRC_OVRRD_CD" type="xs:int" minOccurs="0" />
+                <xs:element name="SALES_TAX" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BUNDLE_PKG_FG" type="xs:boolean" minOccurs="0" />
+                <xs:element name="BUNDLE_OF_PKG_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="BUNDLE_CNT" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="BUNDLE_EXP_DAYS" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="CRIND_DISP_SEQ_NO" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="KIOSK_DISP_SEQ_NO" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="TAX_TYPE" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="VENDOR_POS_CODE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</CS_WASH_PKGExport>

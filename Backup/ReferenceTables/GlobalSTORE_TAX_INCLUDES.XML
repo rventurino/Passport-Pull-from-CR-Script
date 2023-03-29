@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<TAX_INCLUDESExport>
+  <xs:schema id="TAX_INCLUDESExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="TAX_INCLUDESExport" msdata:IsDataSet="true" msdata:MainDataTable="TAX_INCLUDES" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TAX_INCLUDES">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TAX_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="INCLUDE_TAX_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="TAX_SEQ_NBR" type="xs:short" minOccurs="0" />
+                <xs:element name="STAT_CD" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</TAX_INCLUDESExport>

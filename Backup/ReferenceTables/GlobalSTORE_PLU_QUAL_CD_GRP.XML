@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<PLU_QUAL_CD_GRPExport>
+  <xs:schema id="PLU_QUAL_CD_GRPExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="PLU_QUAL_CD_GRPExport" msdata:IsDataSet="true" msdata:MainDataTable="PLU_QUAL_CD_GRP" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PLU_QUAL_CD_GRP">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PLU_QUAL_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="CS_TXT_ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</PLU_QUAL_CD_GRPExport>

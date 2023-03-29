@@ -1,0 +1,70 @@
+<?xml version="1.0" standalone="yes"?>
+<g_fuel_gradeExport>
+  <xs:schema id="g_fuel_gradeExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="g_fuel_gradeExport" msdata:IsDataSet="true" msdata:MainDataTable="g_fuel_grade" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="g_fuel_grade">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="GradeID" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="GradeName" type="xs:string" minOccurs="0" />
+                <xs:element name="Item_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="LowProd" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="LowProdPct" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="HighProd" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="Abbreviation" type="xs:string" minOccurs="0" />
+                <xs:element name="AlternateName" type="xs:string" minOccurs="0" />
+                <xs:element name="AlternateAbbreviation" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <g_fuel_grade>
+    <GradeID>1</GradeID>
+    <GradeName>REGULAR</GradeName>
+    <Item_ID>Grade 01</Item_ID>
+    <LowProd>1</LowProd>
+    <LowProdPct>100</LowProdPct>
+    <HighProd>3</HighProd>
+    <Abbreviation>REG</Abbreviation>
+    <AlternateName />
+    <AlternateAbbreviation />
+  </g_fuel_grade>
+  <g_fuel_grade>
+    <GradeID>2</GradeID>
+    <GradeName>CLEAR SUPER</GradeName>
+    <Item_ID>Grade 02</Item_ID>
+    <LowProd>2</LowProd>
+    <LowProdPct>0</LowProdPct>
+    <HighProd>2</HighProd>
+    <Abbreviation>CLR</Abbreviation>
+    <AlternateName />
+    <AlternateAbbreviation />
+  </g_fuel_grade>
+  <g_fuel_grade>
+    <GradeID>3</GradeID>
+    <GradeName>PREMIUM</GradeName>
+    <Item_ID>Grade 03</Item_ID>
+    <LowProd>1</LowProd>
+    <LowProdPct>0</LowProdPct>
+    <HighProd>3</HighProd>
+    <Abbreviation>PRE</Abbreviation>
+    <AlternateName />
+    <AlternateAbbreviation />
+  </g_fuel_grade>
+  <g_fuel_grade>
+    <GradeID>4</GradeID>
+    <GradeName>MIDGRADE</GradeName>
+    <Item_ID>Grade 04</Item_ID>
+    <LowProd>1</LowProd>
+    <LowProdPct>60</LowProdPct>
+    <HighProd>3</HighProd>
+    <Abbreviation>MID</Abbreviation>
+    <AlternateName />
+    <AlternateAbbreviation />
+  </g_fuel_grade>
+</g_fuel_gradeExport>

@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<CS_CUST_ACCTExport>
+  <xs:schema id="CS_CUST_ACCTExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="CS_CUST_ACCTExport" msdata:IsDataSet="true" msdata:MainDataTable="CS_CUST_ACCT" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="CS_CUST_ACCT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CUST_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="ACCT_ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <CS_CUST_ACCT>
+    <CUST_ID>1</CUST_ID>
+    <ACCT_ID>1</ACCT_ID>
+  </CS_CUST_ACCT>
+</CS_CUST_ACCTExport>

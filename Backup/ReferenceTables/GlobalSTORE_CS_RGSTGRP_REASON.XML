@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<CS_RGSTGRP_REASONExport>
+  <xs:schema id="CS_RGSTGRP_REASONExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="CS_RGSTGRP_REASONExport" msdata:IsDataSet="true" msdata:MainDataTable="CS_RGSTGRP_REASON" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="CS_RGSTGRP_REASON">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="APPL_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="FUNC_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="REASON_CODE" type="xs:short" minOccurs="0" />
+                <xs:element name="RGST_GRP_ID" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</CS_RGSTGRP_REASONExport>

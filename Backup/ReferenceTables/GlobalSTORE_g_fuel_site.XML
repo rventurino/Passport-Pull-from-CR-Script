@@ -1,0 +1,83 @@
+<?xml version="1.0" standalone="yes"?>
+<g_fuel_siteExport>
+  <xs:schema id="g_fuel_siteExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="g_fuel_siteExport" msdata:IsDataSet="true" msdata:MainDataTable="g_fuel_site" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="g_fuel_site">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SiteID" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="CurrentOperatingLevelID" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="CurrentPriceBookID" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="NumberFuelSaleBuffers" type="xs:int" minOccurs="0" />
+                <xs:element name="LinearUnitOfMeasure" type="xs:string" minOccurs="0" />
+                <xs:element name="VolumeUnitOfMeasure" type="xs:string" minOccurs="0" />
+                <xs:element name="PreAuthAllowed" type="xs:boolean" minOccurs="0" />
+                <xs:element name="StackedSalesAllowed" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MaxLiveDispensers" type="xs:int" minOccurs="0" />
+                <xs:element name="AllowedZeroPPUs" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MaxPPU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MinPPU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="InitialConfigDone" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DispenserOptionModeID" type="xs:int" minOccurs="0" />
+                <xs:element name="GenAuthEnabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="PendingPriceBookID" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="AllowPresetWithHandleUp" type="xs:boolean" minOccurs="0" />
+                <xs:element name="UseFixedGradeName" type="xs:boolean" minOccurs="0" />
+                <xs:element name="UseFixedServiceLevelName" type="xs:boolean" minOccurs="0" />
+                <xs:element name="UseFixedGradeProductCodes" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TokenAttendantRcptCtl" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="TokenAttendantNtwrkRcptCtl" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="TokenAttendantPrpayRcptCtl" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="RunAttendantInBufferedMode" type="xs:boolean" minOccurs="0" />
+                <xs:element name="AllowAttendantBalanceQuery" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TokenOrStandardOperation" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="TokenPrefix" type="xs:string" minOccurs="0" />
+                <xs:element name="EnablePostPayLimit" type="xs:boolean" minOccurs="0" />
+                <xs:element name="PostPayLimit" type="xs:decimal" minOccurs="0" />
+                <xs:element name="EMVEnabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ExternalMerchandisingEnabled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="EMVContactlessEnabled" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <g_fuel_site>
+    <SiteID>2020-10-01T09:33:36-07:00</SiteID>
+    <CurrentOperatingLevelID>1</CurrentOperatingLevelID>
+    <CurrentPriceBookID>1</CurrentPriceBookID>
+    <NumberFuelSaleBuffers>2</NumberFuelSaleBuffers>
+    <LinearUnitOfMeasure>INCH</LinearUnitOfMeasure>
+    <VolumeUnitOfMeasure>GAL</VolumeUnitOfMeasure>
+    <PreAuthAllowed>true</PreAuthAllowed>
+    <StackedSalesAllowed>true</StackedSalesAllowed>
+    <MaxLiveDispensers>32</MaxLiveDispensers>
+    <AllowedZeroPPUs>false</AllowedZeroPPUs>
+    <MaxPPU>9.9990</MaxPPU>
+    <MinPPU>0.7500</MinPPU>
+    <InitialConfigDone>true</InitialConfigDone>
+    <DispenserOptionModeID>1</DispenserOptionModeID>
+    <GenAuthEnabled>true</GenAuthEnabled>
+    <PendingPriceBookID>2</PendingPriceBookID>
+    <AllowPresetWithHandleUp>true</AllowPresetWithHandleUp>
+    <UseFixedGradeName>false</UseFixedGradeName>
+    <UseFixedServiceLevelName>false</UseFixedServiceLevelName>
+    <UseFixedGradeProductCodes>false</UseFixedGradeProductCodes>
+    <TokenAttendantRcptCtl>0</TokenAttendantRcptCtl>
+    <TokenAttendantNtwrkRcptCtl>0</TokenAttendantNtwrkRcptCtl>
+    <TokenAttendantPrpayRcptCtl>0</TokenAttendantPrpayRcptCtl>
+    <RunAttendantInBufferedMode>false</RunAttendantInBufferedMode>
+    <AllowAttendantBalanceQuery>false</AllowAttendantBalanceQuery>
+    <TokenOrStandardOperation>0</TokenOrStandardOperation>
+    <TokenPrefix />
+    <EnablePostPayLimit>false</EnablePostPayLimit>
+    <PostPayLimit>100.0000</PostPayLimit>
+    <EMVEnabled>true</EMVEnabled>
+    <ExternalMerchandisingEnabled>false</ExternalMerchandisingEnabled>
+    <EMVContactlessEnabled>false</EMVContactlessEnabled>
+  </g_fuel_site>
+</g_fuel_siteExport>

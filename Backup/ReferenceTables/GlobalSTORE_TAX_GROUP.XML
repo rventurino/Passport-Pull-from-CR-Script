@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<TAX_GROUPExport>
+  <xs:schema id="TAX_GROUPExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="TAX_GROUPExport" msdata:IsDataSet="true" msdata:MainDataTable="TAX_GROUP" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TAX_GROUP">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TAXBLTY_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="TAX_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="TAXBLTY_DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="CRT_TS" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <TAX_GROUP>
+    <TAXBLTY_CD>99</TAXBLTY_CD>
+    <TAX_CD>99</TAX_CD>
+    <TAXBLTY_DESCR>No Tax</TAXBLTY_DESCR>
+    <CRT_TS>1900-01-01T00:00:00-08:00</CRT_TS>
+  </TAX_GROUP>
+  <TAX_GROUP>
+    <TAXBLTY_CD>100</TAXBLTY_CD>
+    <TAX_CD>100</TAX_CD>
+    <TAXBLTY_DESCR>Car Wash Tax</TAXBLTY_DESCR>
+    <CRT_TS>1900-01-01T00:00:00-08:00</CRT_TS>
+  </TAX_GROUP>
+</TAX_GROUPExport>

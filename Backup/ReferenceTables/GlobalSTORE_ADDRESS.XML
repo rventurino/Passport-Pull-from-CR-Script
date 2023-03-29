@@ -1,0 +1,92 @@
+<?xml version="1.0" standalone="yes"?>
+<ADDRESSExport>
+  <xs:schema id="ADDRESSExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="ADDRESSExport" msdata:IsDataSet="true" msdata:MainDataTable="ADDRESS" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ADDRESS">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ADDR_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="USAGE_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="SEQ_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="PREDIR" type="xs:string" minOccurs="0" />
+                <xs:element name="STREET_NBR" type="xs:string" minOccurs="0" />
+                <xs:element name="STREET_NM" type="xs:string" minOccurs="0" />
+                <xs:element name="POSTDIR" type="xs:string" minOccurs="0" />
+                <xs:element name="STREET_SUFX" type="xs:string" minOccurs="0" />
+                <xs:element name="SECONDARY_NBR" type="xs:string" minOccurs="0" />
+                <xs:element name="UNT_DESIGNATOR" type="xs:string" minOccurs="0" />
+                <xs:element name="CTY" type="xs:string" minOccurs="0" />
+                <xs:element name="ST" type="xs:string" minOccurs="0" />
+                <xs:element name="PST_CD" type="xs:string" minOccurs="0" />
+                <xs:element name="DISTANCE" type="xs:short" minOccurs="0" />
+                <xs:element name="CTRY" type="xs:string" minOccurs="0" />
+                <xs:element name="EDI_ADDR" type="xs:string" minOccurs="0" />
+                <xs:element name="ENT_TYP" type="xs:short" minOccurs="0" />
+                <xs:element name="LN_1" type="xs:string" minOccurs="0" />
+                <xs:element name="SUB_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="LN_2" type="xs:string" minOccurs="0" />
+                <xs:element name="LN_3" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <ADDRESS>
+    <ADDR_ID>1</ADDR_ID>
+    <USAGE_CD>1</USAGE_CD>
+    <SEQ_ID>1</SEQ_ID>
+    <CTY>oregon city</CTY>
+    <ST>or</ST>
+    <PST_CD>97045</PST_CD>
+    <DISTANCE>0</DISTANCE>
+    <ENT_TYP>2</ENT_TYP>
+    <LN_1>13531 clairmot way sp 86</LN_1>
+    <SUB_ID>&lt;not used&gt;</SUB_ID>
+    <LN_2 />
+    <LN_3 />
+  </ADDRESS>
+  <ADDRESS>
+    <ADDR_ID>1</ADDR_ID>
+    <USAGE_CD>4</USAGE_CD>
+    <SEQ_ID>0</SEQ_ID>
+    <CTY />
+    <ST />
+    <PST_CD xml:space="preserve"> </PST_CD>
+    <CTRY />
+    <ENT_TYP>3</ENT_TYP>
+    <LN_1 />
+    <SUB_ID>0</SUB_ID>
+  </ADDRESS>
+  <ADDRESS>
+    <ADDR_ID>1</ADDR_ID>
+    <USAGE_CD>5</USAGE_CD>
+    <SEQ_ID>1</SEQ_ID>
+    <CTY>West Linn</CTY>
+    <ST>OR</ST>
+    <PST_CD>97068</PST_CD>
+    <DISTANCE>0</DISTANCE>
+    <ENT_TYP>1</ENT_TYP>
+    <LN_1>22805 Willamette Dr</LN_1>
+    <SUB_ID>0</SUB_ID>
+    <LN_2 />
+    <LN_3 />
+  </ADDRESS>
+  <ADDRESS>
+    <ADDR_ID>70</ADDR_ID>
+    <USAGE_CD>1</USAGE_CD>
+    <SEQ_ID>1</SEQ_ID>
+    <CTY />
+    <ST />
+    <PST_CD />
+    <DISTANCE>0</DISTANCE>
+    <ENT_TYP>2</ENT_TYP>
+    <LN_1>18778 Se River Rd Milwaukie OR</LN_1>
+    <SUB_ID>&lt;not used&gt;</SUB_ID>
+    <LN_2 />
+    <LN_3 />
+  </ADDRESS>
+</ADDRESSExport>

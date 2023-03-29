@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<CS_SUB_ACCTExport>
+  <xs:schema id="CS_SUB_ACCTExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="CS_SUB_ACCTExport" msdata:IsDataSet="true" msdata:MainDataTable="CS_SUB_ACCT" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="CS_SUB_ACCT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SUB_ACCT_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="ACCT_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="SUB_ACCT_DESCR" type="xs:string" minOccurs="0" />
+                <xs:element name="VIN" type="xs:string" minOccurs="0" />
+                <xs:element name="ENABLED_FG" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <CS_SUB_ACCT>
+    <SUB_ACCT_ID>00000000000</SUB_ACCT_ID>
+    <ACCT_ID>1</ACCT_ID>
+    <SUB_ACCT_DESCR />
+    <VIN />
+    <ENABLED_FG>1</ENABLED_FG>
+  </CS_SUB_ACCT>
+</CS_SUB_ACCTExport>

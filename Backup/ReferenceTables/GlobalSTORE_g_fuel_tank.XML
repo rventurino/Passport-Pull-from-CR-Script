@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="yes"?>
+<g_fuel_tankExport>
+  <xs:schema id="g_fuel_tankExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="g_fuel_tankExport" msdata:IsDataSet="true" msdata:MainDataTable="g_fuel_tank" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="g_fuel_tank">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TankID" type="xs:short" minOccurs="0" />
+                <xs:element name="ProductID" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="Capacity" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LowInvLevel" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ReorderLevel" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Manufacturername" type="xs:string" minOccurs="0" />
+                <xs:element name="ModelNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="SerialNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="Diameter" type="xs:int" minOccurs="0" />
+                <xs:element name="SPC_Id" type="xs:unsignedByte" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <g_fuel_tank>
+    <TankID>1</TankID>
+    <ProductID>1</ProductID>
+    <Capacity>9596.0000</Capacity>
+    <LowInvLevel>0.0000</LowInvLevel>
+    <ReorderLevel>0.0000</ReorderLevel>
+    <Manufacturername xml:space="preserve"> </Manufacturername>
+    <ModelNumber xml:space="preserve"> </ModelNumber>
+    <SerialNumber xml:space="preserve"> </SerialNumber>
+    <Diameter>96</Diameter>
+    <SPC_Id>0</SPC_Id>
+  </g_fuel_tank>
+  <g_fuel_tank>
+    <TankID>2</TankID>
+    <ProductID>2</ProductID>
+    <Capacity>9596.0000</Capacity>
+    <LowInvLevel>0.0000</LowInvLevel>
+    <ReorderLevel>0.0000</ReorderLevel>
+    <Manufacturername />
+    <ModelNumber />
+    <SerialNumber />
+    <Diameter>96</Diameter>
+    <SPC_Id>0</SPC_Id>
+  </g_fuel_tank>
+  <g_fuel_tank>
+    <TankID>3</TankID>
+    <ProductID>3</ProductID>
+    <Capacity>9596.0000</Capacity>
+    <LowInvLevel>0.0000</LowInvLevel>
+    <ReorderLevel>0.0000</ReorderLevel>
+    <Manufacturername />
+    <ModelNumber />
+    <SerialNumber />
+    <Diameter>96</Diameter>
+    <SPC_Id>0</SPC_Id>
+  </g_fuel_tank>
+</g_fuel_tankExport>

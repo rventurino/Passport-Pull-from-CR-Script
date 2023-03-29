@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<EMPLOYEE_PERMExport>
+  <xs:schema id="EMPLOYEE_PERMExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="EMPLOYEE_PERMExport" msdata:IsDataSet="true" msdata:MainDataTable="EMPLOYEE_PERM" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="EMPLOYEE_PERM">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="APPL_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="FUNC_ID" type="xs:short" minOccurs="0" />
+                <xs:element name="EMP_ID" type="xs:string" minOccurs="0" />
+                <xs:element name="MDSE_XREF_NO" type="xs:int" minOccurs="0" />
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <EMPLOYEE_PERM>
+    <APPL_ID>1</APPL_ID>
+    <FUNC_ID>0</FUNC_ID>
+    <EMP_ID>10000</EMP_ID>
+    <MDSE_XREF_NO>1234</MDSE_XREF_NO>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_PERM>
+  <EMPLOYEE_PERM>
+    <APPL_ID>1</APPL_ID>
+    <FUNC_ID>0</FUNC_ID>
+    <EMP_ID>10001</EMP_ID>
+    <MDSE_XREF_NO>1234</MDSE_XREF_NO>
+    <STR_ID>1</STR_ID>
+  </EMPLOYEE_PERM>
+</EMPLOYEE_PERMExport>

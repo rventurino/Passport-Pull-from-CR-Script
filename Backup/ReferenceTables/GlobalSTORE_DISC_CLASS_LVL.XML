@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<DISC_CLASS_LVLExport>
+  <xs:schema id="DISC_CLASS_LVLExport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="DISC_CLASS_LVLExport" msdata:IsDataSet="true" msdata:MainDataTable="DISC_CLASS_LVL" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DISC_CLASS_LVL">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DISC_CLSS_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="PRNT_DISC_CLSS_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="CHLD_EXCL_CD" type="xs:short" minOccurs="0" />
+                <xs:element name="EXCL_DISC_CLSS_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="STR_ID" type="xs:int" minOccurs="0" />
+                <xs:element name="DISC_LVL" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</DISC_CLASS_LVLExport>
