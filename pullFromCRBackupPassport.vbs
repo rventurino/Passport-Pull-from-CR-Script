@@ -8,13 +8,23 @@ End Sub
 
 
 Sub GenerateBlankPPWorksheets()
-
+Dim rootFilePath As String
+rootFilePath = ThisWorkbook.Path
 '================================================================Parse XML Files from Backup to Excel Files
 'Disable alerts from Excel
     'Prevents Excel from prompting for "Save information in clipboard" when closing large Passport Reference Table Excel Sheets
                 Application.DisplayAlerts = False
 
+'Create the new Excel Sheet
+ ' Create a new workbook
+    Dim wb As Workbook
+    Set wb = Workbooks.Add
 
+    ' Save the workbook
+    wb.SaveAs FileName:= rootFilePath & "\New Microsoft Excel Worksheet.xlsx"
+
+    ' Open the workbook
+    Workbooks.Open (rootFilePath & "\New Microsoft Excel Worksheet.xlsx")
 'Generate Excel worksheets, color them, and make the headings for each worksheet (Tax, Items, Departments, etc.)
 
 'rename first sheet to tax
@@ -25,7 +35,8 @@ Sheets.Add(After:=Sheets("Tax Codes")).Name = "Categories"
 Sheets.Add(After:=Sheets("Categories")).Name = "Departments"
 Sheets.Add(After:=Sheets("Departments")).Name = "Department Resolve"
 Sheets.Add(After:=Sheets("Department Resolve")).Name = "Items"
-Sheets.Add(After:=Sheets("Items")).Name = "Items XREF"
+Sheets.Add(After:=Sheets("Items")).Name = "Items Cleaned"
+Sheets.Add(After:=Sheets("Items Cleaned")).Name = "Items XREF"
 Sheets.Add(After:=Sheets("Items XREF")).Name = "Linked Items"
 Sheets.Add(After:=Sheets("Linked Items")).Name = "Invalid SKU"
 Sheets.Add(After:=Sheets("Invalid SKU")).Name = "Duplicate SKU"
@@ -36,6 +47,7 @@ Sheets("Categories").Tab.Color = RGB(0, 176, 80)
 Sheets("Departments").Tab.Color = RGB(146, 208, 80)
 Sheets("Department Resolve").Tab.Color = RGB(146, 208, 80)
 Sheets("Items").Tab.Color = RGB(0, 176, 240)
+Sheets("Items Cleaned").Tab.Color = RGB(0, 176, 240)
 Sheets("Items XREF").Tab.Color = RGB(0, 112, 192)
 Sheets("Linked Items").Tab.Color = RGB(0, 32, 96)
 Sheets("Invalid SKU").Tab.Color = RGB(255, 0, 0)
@@ -78,16 +90,23 @@ Sheets("Items").Range("M1").Value = "Product Code"
 Sheets("Items XREF").Range("A1").Value = "New PLU"
 Sheets("Items XREF").Range("B1").Value = "Existing PLU"
 
+'Items Cleaned 
+Sheets("Items Cleaned").Range("A1").Value = "UPC"
+Sheets("Items Cleaned").Range("B1").Value = "UPC Type"
+Sheets("Items Cleaned").Range("C1").Value = "Item Description"
+Sheets("Items Cleaned").Range("D1").Value = "CR Description"
+Sheets("Items Cleaned").Range("E1").Value = "Department"
+
 'Items Linked Items Headings
 Sheets("Linked Items").Range("A1").Value = "Item UPC"
 Sheets("Linked Items").Range("B1").Value = "Linkable Item UPC"
 
 'Invalid SKU Headings
-Sheets("Items").rows(1).Copy
+Sheets("Items Cleaned").rows(1).Copy
 Sheets("Invalid SKU").Range("A1").PasteSpecial Paste:=xlPasteValues
 
 'Duplicate SKU Headings
-Sheets("Items").rows(1).Copy
+Sheets("Items Cleaned").rows(1).Copy
 Sheets("Duplicate SKU").Range("A1").PasteSpecial Paste:=xlPasteValues
 
 End Sub
@@ -243,7 +262,7 @@ Application.DisplayAlerts = False
         'Copy headers
         Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items").Range("B1:M1").Copy
         Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items XREF").Range("C1").PasteSpecial Paste:=xlPasteValues
-        Workbooks("GlobalSTORE_ITEM_XREF.XML.xlsx").Close Savechanges:=False
+        Workbooks("GlobalSTORE_ITEM_XREF.XML.xlsx").Close Savechanges:=False        
 'Check linked items list, import if they exist, continue onward if they don't
 LinkedItemsWithErrorHandling
 
