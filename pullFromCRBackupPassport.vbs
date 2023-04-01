@@ -144,7 +144,7 @@ Application.DisplayAlerts = True
     Workbooks.OpenXML FileName:=xmlFilePath, LoadOption:=xlXmlLoadImportToList
     'Save and close, set file name
     ActiveWorkbook.Close Savechanges:=True, FileName:=rootFilePath & "\GlobalSTORE_PLU.XML.xlsx"
-     
+  Application.DisplayAlerts = False   
 'Convert Items XREF to XLSX
     'set xmlFilePath to location of tax
     xmlFilePath = rootFilePath & "\Backup\ReferenceTables\GlobalSTORE_ITEM_XREF.XML"
@@ -160,7 +160,7 @@ Application.DisplayAlerts = True
     Workbooks.OpenXML FileName:=xmlFilePath, LoadOption:=xlXmlLoadImportToList
     'Save and close, set file name
     ActiveWorkbook.Close Savechanges:=True, FileName:=rootFilePath & "\GlobalSTORE_PLU_GROUP.XML.xlsx"
-Application.DisplayAlerts = False
+
 
 '=====================================================================================================================================================
 '=====================================================================================================================================================
@@ -200,7 +200,7 @@ Application.DisplayAlerts = False
                 Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Categories").columns("A:Z").AutoFit
             'fit column to contents
                 Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Departments").columns("A:Z").AutoFit
-
+            Workbooks("GlobalSTORE_STORE_DEPARTMENT.XML.xlsx").Close Savechanges:=False         
 'Copy Items to Generated Spreadsheet
 'Open Desired Workbook
     Workbooks.Open (ThisWorkbook.Path & "\GlobalSTORE_PLU.XML.xlsx")
@@ -241,7 +241,7 @@ Application.DisplayAlerts = False
             Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items").columns("A:M").Sort Key1:=Range("A:A"), Order1:=xlAscending, Header:=xlYes
             'remove non numeric UPC rows
             DeleteNonNumericRows
-            'Workbooks("GlobalSTORE_PLU.XML.xlsx").Close Savechanges:=False
+            Workbooks("GlobalSTORE_PLU.XML.xlsx").Close Savechanges:=False
 'Copy Items XREF to Generated Spreadsheet
 'Open Desired Workbook
     Workbooks.Open (ThisWorkbook.Path & "\GlobalSTORE_ITEM_XREF.XML.xlsx")
