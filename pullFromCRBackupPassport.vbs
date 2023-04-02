@@ -1,4 +1,4 @@
-Sub pullFromCRBackupPassportMAIN()
+Sub APassportMAIN()
 ProgramStartMessage
 GenerateBlankPPWorksheets
 ParsePPFromXML
@@ -102,11 +102,11 @@ Sheets("Linked Items").Range("A1").Value = "Item UPC"
 Sheets("Linked Items").Range("B1").Value = "Linkable Item UPC"
 
 'Invalid SKU Headings
-Sheets("Items Cleaned").rows(1).Copy
+Sheets("Items").rows(1).Copy
 Sheets("Invalid SKU").Range("A1").PasteSpecial Paste:=xlPasteValues
 
 'Duplicate SKU Headings
-Sheets("Items Cleaned").rows(1).Copy
+Sheets("Items").rows(1).Copy
 Sheets("Duplicate SKU").Range("A1").PasteSpecial Paste:=xlPasteValues
 
 End Sub
@@ -242,6 +242,14 @@ Application.DisplayAlerts = True
             'remove non numeric UPC rows
             DeleteNonNumericRows
             Workbooks("GlobalSTORE_PLU.XML.xlsx").Close Savechanges:=False
+                'Calculate the UPC type 
+                calculateSKUType
+                'Use MAX function to calculate the retail 
+                CalcRetailPrice
+                'Cut and paste SKU w/ value above 13 to Invalid SKU 
+                CutInvalidSKUs
+                'Calculate max value for retail price
+
 'Copy Items XREF to Generated Spreadsheet
 'Open Desired Workbook
     Workbooks.Open (ThisWorkbook.Path & "\GlobalSTORE_ITEM_XREF.XML.xlsx")
@@ -259,7 +267,7 @@ Application.DisplayAlerts = True
         Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items XREF").columns("A:B").Sort Key1:=Range("A:A"), Order1:=xlAscending, Header:=xlYes
         'Delete rows if the old and new UPC are the same
         ItemXREFDeleteRowsIfEqual
-        'Copy headers
+        'Copy headers for the VLOOKUPS
         Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items").Range("B1:M1").Copy
         Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items XREF").Range("C1").PasteSpecial Paste:=xlPasteValues
         Workbooks("GlobalSTORE_ITEM_XREF.XML.xlsx").Close Savechanges:=False        
@@ -428,4 +436,111 @@ Sub ItemXREFDeleteRowsIfEqual()
         End If
     Next i
 
+End Sub
+
+Sub calculateSKUType()
+       Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items").Activate
+
+    Dim lastRow As Long
+    Dim i As Long
+    
+    'Find the last row of data in column A
+    lastRow = Range("A" & rows.Count).End(xlUp).row
+    
+    'Loop through each cell in column A and calculate the length
+    For i = 2 To lastRow
+        'Get the length of the cell value and assign it to a variable
+        Dim cellLength As Integer
+        cellLength = Len(Range("A" & i).Value)
+        Select Case cellLength
+      Case 1
+         Range("B" & i).Value = 4
+      Case 2
+        Range("B" & i).Value = 4
+      Case 3
+         Range("B" & i).Value = 4
+      Case 4
+         Range("B" & i).Value = 4
+      Case 5
+         Range("B" & i).Value = 4
+      Case 6
+         Range("B" & i).Value = 1
+      Case 7
+         Range("B" & i).Value = 1
+      Case 8
+         Range("B" & i).Value = 2
+      Case 9
+         Range("B" & i).Value = 0
+      Case 10
+         Range("B" & i).Value = 0
+      Case 11
+         Range("B" & i).Value = 0
+      Case 12
+         Range("B" & i).Value = 0
+      Case 13
+         Range("B" & i).Value = 3
+      Case Else
+         Range("B" & i).Value = "INVALID SKU: LENGTH ABOVE 13"
+   End Select
+        
+        'Display the length in the adjacent cell in column B
+        'Range("B" & i).Value = cellLength
+    Next i
+    
+    
+
+        'Check if the value is a duplicate
+        'If WorksheetFunction.CountIf(rng, cell.Value) > 1 Then
+            'cell.Interior.Color = RGB(230, 184, 183)
+            'cell.Font.Color = RGB(99, 37, 35)
+        'Else
+            'cell.Interior.ColorIndex = xlNone
+        'End If
+
+End Sub
+
+Sub CalcRetailPrice()
+    Dim lastRow As Long
+    Dim i As Long
+    Dim valueI As Double
+    Dim valueJ As Double
+    'Find the last row of data in column I or J
+    lastRow = Application.WorksheetFunction.Max(Range("I" & rows.Count).End(xlUp).row, _
+                                                 Range("J" & rows.Count).End(xlUp).row)
+    
+    'Loop through each row and calculate the maximum value of columns I and J
+    For i = 2 To lastRow
+        'Get the values of columns I and J in the current row
+       
+        valueI = Range("I" & i).Value
+        valueJ = Range("J" & i).Value
+        
+        'Calculate the maximum value and display it in column K
+        Dim maxValue As Double
+        maxValue = Application.WorksheetFunction.Max(valueI, valueJ)
+        Range("K" & i).Value = maxValue
+    Next i
+End Sub
+
+Sub CutInvalidSKUs()
+    Dim ws As Worksheet
+    Dim invalidWS As Worksheet
+    Dim lastRow As Long
+    Dim i As Long
+    
+    'Set the worksheet variables
+    Set ws = Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items")
+    Set invalidWS = Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Invalid SKU")
+    
+    'Find the last row of data in column B
+    lastRow = ws.Range("B" & rows.Count).End(xlUp).row
+    
+    'Loop through each row and check for the invalid SKU message
+    For i = lastRow To 2 Step -1 'loop backwards to avoid deleting rows in the wrong order
+        If InStr(ws.Range("B" & i).Value, "INVALID SKU: LENGTH ABOVE 13") > 0 Then
+            'Cut the row and paste it to the Invalid SKU worksheet
+            ws.rows(i).Cut
+            invalidWS.rows(invalidWS.Range("A" & rows.Count).End(xlUp).row + 1).Insert shift:=xlDown
+        End If
+    Next i
 End Sub
