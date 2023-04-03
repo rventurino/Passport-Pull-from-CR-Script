@@ -1,9 +1,9 @@
-Sub APassportMAIN()
+Sub AutoPassportMAIN()
 ProgramStartMessage
 GenerateBlankPPWorksheets
 ParsePPFromXML
 DepartmentResolve
-ScriptComplete
+PBSpecialistReminders
 End Sub
 
 
@@ -21,7 +21,7 @@ rootFilePath = ThisWorkbook.Path
     Set wb = Workbooks.Add
 
     ' Save the workbook
-    wb.SaveAs FileName:= rootFilePath & "\New Microsoft Excel Worksheet.xlsx"
+    wb.SaveAs FileName:=rootFilePath & "\New Microsoft Excel Worksheet.xlsx"
 
     ' Open the workbook
     Workbooks.Open (rootFilePath & "\New Microsoft Excel Worksheet.xlsx")
@@ -90,7 +90,7 @@ Sheets("Items").Range("M1").Value = "Product Code"
 Sheets("Items XREF").Range("A1").Value = "New PLU"
 Sheets("Items XREF").Range("B1").Value = "Existing PLU"
 
-'Items Cleaned 
+'Items Cleaned
 Sheets("Items Cleaned").Range("A1").Value = "UPC"
 Sheets("Items Cleaned").Range("B1").Value = "UPC Type"
 Sheets("Items Cleaned").Range("C1").Value = "Item Description"
@@ -105,9 +105,7 @@ Sheets("Linked Items").Range("B1").Value = "Linkable Item UPC"
 Sheets("Items").rows(1).Copy
 Sheets("Invalid SKU").Range("A1").PasteSpecial Paste:=xlPasteValues
 
-'Duplicate SKU Headings
-Sheets("Items").rows(1).Copy
-Sheets("Duplicate SKU").Range("A1").PasteSpecial Paste:=xlPasteValues
+
 
 End Sub
 Sub ParsePPFromXML()
@@ -135,6 +133,7 @@ rootFilePath = ThisWorkbook.Path
     ActiveWorkbook.Close Savechanges:=True, FileName:=rootFilePath & "\GlobalSTORE_STORE_DEPARTMENT.XML.xlsx"
 
 'Convert Items to XLSX ================================================================================================================================
+ItemsWarningMessage
 Application.DisplayAlerts = True
 
     'set xmlFilePath to location of tax
@@ -144,7 +143,7 @@ Application.DisplayAlerts = True
     Workbooks.OpenXML FileName:=xmlFilePath, LoadOption:=xlXmlLoadImportToList
     'Save and close, set file name
     ActiveWorkbook.Close Savechanges:=True, FileName:=rootFilePath & "\GlobalSTORE_PLU.XML.xlsx"
-  Application.DisplayAlerts = False   
+  Application.DisplayAlerts = False
 'Convert Items XREF to XLSX
     'set xmlFilePath to location of tax
     xmlFilePath = rootFilePath & "\Backup\ReferenceTables\GlobalSTORE_ITEM_XREF.XML"
@@ -200,7 +199,7 @@ Application.DisplayAlerts = True
                 Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Categories").columns("A:Z").AutoFit
             'fit column to contents
                 Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Departments").columns("A:Z").AutoFit
-            Workbooks("GlobalSTORE_STORE_DEPARTMENT.XML.xlsx").Close Savechanges:=False         
+            Workbooks("GlobalSTORE_STORE_DEPARTMENT.XML.xlsx").Close Savechanges:=False
 'Copy Items to Generated Spreadsheet
 'Open Desired Workbook
     Workbooks.Open (ThisWorkbook.Path & "\GlobalSTORE_PLU.XML.xlsx")
@@ -230,7 +229,7 @@ Application.DisplayAlerts = True
 
        'Ensure correct page (Items)
         Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items").Activate
-            'Format to number format for visibility
+            'Format to number format for visibility)
             With Range("A2:A100000")
             .NumberFormat = "0"
             .Value = .Value
@@ -242,13 +241,49 @@ Application.DisplayAlerts = True
             'remove non numeric UPC rows
             DeleteNonNumericRows
             Workbooks("GlobalSTORE_PLU.XML.xlsx").Close Savechanges:=False
-                'Calculate the UPC type 
+                'Calculate the UPC type
                 calculateSKUType
-                'Use MAX function to calculate the retail 
+                'Use MAX function to calculate the retail
                 CalcRetailPrice
-                'Cut and paste SKU w/ value above 13 to Invalid SKU 
+                'Cut and paste SKU w/ value above 13 to Invalid SKU
                 CutInvalidSKUs
                 'Calculate max value for retail price
+'Items Cleaned Sheet
+'Copy Columns from Items
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items").columns("A").Copy
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items Cleaned").Range("A1").PasteSpecial Paste:=xlPasteValues
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items").columns("B").Copy
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items Cleaned").Range("B1").PasteSpecial Paste:=xlPasteValues
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items").columns("D").Copy
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items Cleaned").Range("C1").PasteSpecial Paste:=xlPasteValues
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items").columns("E").Copy
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items Cleaned").Range("D1").PasteSpecial Paste:=xlPasteValues
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items").columns("F").Copy
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items Cleaned").Range("E1").PasteSpecial Paste:=xlPasteValues
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items").columns("K").Copy
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items Cleaned").Range("F1").PasteSpecial Paste:=xlPasteValues
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items").columns("L").Copy
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items Cleaned").Range("G1").PasteSpecial Paste:=xlPasteValues
+
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items Cleaned").Activate
+            'Format to number format for visibility)
+            With Range("A2:A100000")
+            .NumberFormat = "0"
+            .Value = .Value
+            End With
+                'fit UPC column to contents
+                Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items Cleaned").columns("A:Z").AutoFit
+
+'Check for true duplicates
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items Cleaned").UsedRange.RemoveDuplicates columns:=Array(1, 2, 3, 4, 5, 6, 7), Header:=xlYes
+'Highlight duplicate SKU
+HighlightDuplicates
+'Pull duplicates to the top for PB specialist to review
+SortByColor
+
+'Duplicate SKU sheet Headings
+Sheets("Items Cleaned").rows(1).Copy
+Sheets("Duplicate SKU").Range("A1").PasteSpecial Paste:=xlPasteValues
 
 'Copy Items XREF to Generated Spreadsheet
 'Open Desired Workbook
@@ -268,9 +303,16 @@ Application.DisplayAlerts = True
         'Delete rows if the old and new UPC are the same
         ItemXREFDeleteRowsIfEqual
         'Copy headers for the VLOOKUPS
-        Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items").Range("B1:M1").Copy
+        Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items Cleaned").Range("B1:G1").Copy
         Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items XREF").Range("C1").PasteSpecial Paste:=xlPasteValues
-        Workbooks("GlobalSTORE_ITEM_XREF.XML.xlsx").Close Savechanges:=False        
+        Workbooks("GlobalSTORE_ITEM_XREF.XML.xlsx").Close Savechanges:=False
+
+        'VLOOKUP Item XREF Values from the Items Cleaned Sheet
+        VlookupForXREF
+
+        'Paste values to remove the VLOOKUP and preserve data
+        Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items XREF").Range("A1:H100000").Copy
+        Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items XREF").Range("A1").PasteSpecial Paste:=xlPasteValues
 'Check linked items list, import if they exist, continue onward if they don't
 LinkedItemsWithErrorHandling
 
@@ -313,16 +355,9 @@ Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Department Resolve")
 HighlightDuplicates
 'fit UPC column to contents
 Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Department Resolve").columns("A:Z").AutoFit
-DepartmentResolveDupesMessage
 End Sub
 
 
-Sub ScriptComplete()
-Application.DisplayAlerts = True
-MsgBox Prompt:="Excel Import from Passport Complete ", Buttons:=vbOKOnly, Title:="MsgBox"
-
-
-End Sub
 
 Sub HighlightDuplicates()
     Dim lastRow As Long
@@ -348,10 +383,7 @@ Sub HighlightDuplicates()
     Next i
 End Sub
 
-Sub DepartmentResolveDupesMessage()
-MsgBox Prompt:="At the Bottom of the Department Resolve list, remove all HIGHLIGHTED departments with no values beyond column C", Buttons:=vbOKOnly, Title:="MsgBox"
 
-End Sub
 
 Sub ProgramStartMessage()
 
@@ -543,4 +575,73 @@ Sub CutInvalidSKUs()
             invalidWS.rows(invalidWS.Range("A" & rows.Count).End(xlUp).row + 1).Insert shift:=xlDown
         End If
     Next i
+End Sub
+
+Sub SortByColor()
+    Dim ws As Worksheet
+    Dim lastRow As Long
+    Dim i As Long
+    
+    'set worksheet variable
+    Set ws = Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items Cleaned") 'replace "Sheet1" with the name of your worksheet
+    
+    'get last row of worksheet
+    lastRow = ws.Cells(ws.rows.Count, "A").End(xlUp).row
+    
+    'sort by color
+    With ws.Sort
+        .SortFields.Clear
+        .SortFields.Add2 Key:=ws.Range("A2:A" & lastRow), _
+                         SortOn:=xlSortOnCellColor, _
+                         Order:=xlDescending, _
+                         DataOption:=xlSortNormal
+        .SetRange ws.Range("A1").CurrentRegion
+        .Header = xlYes
+        .MatchCase = False
+        .Orientation = xlTopToBottom
+        .SortMethod = xlPinYin
+        .Apply
+    End With
+End Sub
+
+Sub VlookupForXREF()
+    Dim ws As Worksheet
+    Dim lastRow As Long
+    Dim i As Long
+    
+    'set worksheet variable
+    Set ws = Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items XREF") 'replace "Sheet1" with the name of your worksheet
+    
+    'get last row of column A
+    lastRow = ws.Cells(ws.rows.Count, "A").End(xlUp).row
+    
+    'loop through each cell in column B and write VLOOKUP formula
+    For i = 2 To lastRow
+        ws.Cells(i, "C").Formula = "=VLOOKUP(B" & i & ",'Items Cleaned'!$A$2:$B$100000,2,FALSE)" 'modify the formula as needed
+        ws.Cells(i, "D").Formula = "=VLOOKUP(B" & i & ",'Items Cleaned'!$A$2:$C$100000,3,FALSE)" 'modify the formula as needed
+        ws.Cells(i, "E").Formula = "=VLOOKUP(B" & i & ",'Items Cleaned'!$A$2:$D$100000,4,FALSE)" 'modify the formula as needed
+        ws.Cells(i, "F").Formula = "=VLOOKUP(B" & i & ",'Items Cleaned'!$A$2:$E$100000,5,FALSE)" 'modify the formula as needed
+        ws.Cells(i, "G").Formula = "=VLOOKUP(B" & i & ",'Items Cleaned'!$A$2:$F$100000,6,FALSE)" 'modify the formula as needed
+        ws.Cells(i, "H").Formula = "=VLOOKUP(B" & i & ",'Items Cleaned'!$A$2:$G$100000,7,FALSE)" 'modify the formula as needed
+    Next i
+  
+End Sub
+
+Sub PBSpecialistReminders()
+    Dim msg As String
+    
+    'build the message with a bulleted list
+    msg = "The Auto Build process is complete. The following areas will require PB Specialist Attention:" & vbCrLf & vbCrLf & _
+          "• Department Resolve: At the Bottom of the list, remove all HIGHLIGHTED departments with no values beyond column C" & vbCrLf & vbCrLf & _
+          "• Items Cleaned: Review UPCs highlighted RED, these are duplicates. Review and move all duplicates to the Duplicate SKU page." & vbCrLf & vbCrLf & _
+          "• Items XREF: Review the SKU's to determine if they're valid. These SKU's are not appended to the items list by default, so you will need to add them to your items list after you check these for validity."
+          
+    'display the message box
+    MsgBox msg, vbInformation, "Areas for review by PB Specialist"
+End Sub
+
+Sub ItemsWarningMessage()
+
+MsgBox Prompt:="ATTENTION. Items list import is starting and a dialog will appear once the XML File has been opened. Please review any XML import errors that may occur, to make sure the XML file is not corrupted.", Buttons:=vbOKOnly, Title:="MsgBox"
+
 End Sub
