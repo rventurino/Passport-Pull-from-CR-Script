@@ -242,7 +242,7 @@ Application.DisplayAlerts = True
             DeleteNonNumericRows
             Workbooks("GlobalSTORE_PLU.XML.xlsx").Close Savechanges:=False
                 'Calculate the UPC type
-                calculateSKUType
+                calculateSKUType "Items", "B"
                 'Use MAX function to calculate the retail
                 CalcRetailPrice
 
@@ -307,7 +307,7 @@ Sheets("Duplicate SKU").Range("A1").PasteSpecial Paste:=xlPasteValues
 
         'VLOOKUP Item XREF Values from the Items Cleaned Sheet
         VlookupForXREF
-
+        calculateSKUType "Items XREF", "C"
         'Paste values to remove the VLOOKUP and preserve data
         Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items XREF").Range("A1:H100000").Copy
         Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items XREF").Range("A1").PasteSpecial Paste:=xlPasteValues
@@ -473,8 +473,8 @@ Sub ItemXREFDeleteRowsIfEqual()
 
 End Sub
 
-Sub calculateSKUType()
-       Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items").Activate
+Sub calculateSKUType(ByVal pageToCalc As String, ByVal pasteColumn as String)
+       Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets(pageToCalc).Activate
 
     Dim lastRow As Long
     Dim i As Long
@@ -489,33 +489,33 @@ Sub calculateSKUType()
         cellLength = Len(Range("A" & i).Value)
         Select Case cellLength
       Case 1
-         Range("B" & i).Value = 4
+         Range(pasteColumn & i).Value = 4
       Case 2
-        Range("B" & i).Value = 4
+        Range(pasteColumn & i).Value = 4
       Case 3
-         Range("B" & i).Value = 4
+         Range(pasteColumn & i).Value = 4
       Case 4
-         Range("B" & i).Value = 4
+         Range(pasteColumn & i).Value = 4
       Case 5
-         Range("B" & i).Value = 4
+         Range(pasteColumn & i).Value = 4
       Case 6
-         Range("B" & i).Value = 1
+         Range(pasteColumn & i).Value = 1
       Case 7
-         Range("B" & i).Value = 1
+         Range(pasteColumn & i).Value = 1
       Case 8
-         Range("B" & i).Value = 2
+         Range(pasteColumn & i).Value = 2
       Case 9
-         Range("B" & i).Value = 0
+         Range(pasteColumn & i).Value = 0
       Case 10
-         Range("B" & i).Value = 0
+         Range(pasteColumn & i).Value = 0
       Case 11
-         Range("B" & i).Value = 0
+         Range(pasteColumn & i).Value = 0
       Case 12
-         Range("B" & i).Value = 0
+         Range(pasteColumn & i).Value = 0
       Case 13
-         Range("B" & i).Value = 3
+         Range(pasteColumn & i).Value = 3
       Case Else
-         Range("B" & i).Value = "INVALID SKU: LENGTH ABOVE 13"
+         Range(pasteColumn & i).Value = "INVALID SKU: LENGTH ABOVE 13"
    End Select
         
         'Display the length in the adjacent cell in column B
@@ -620,7 +620,7 @@ Sub VlookupForXREF()
     
     'loop through each cell in column B and write VLOOKUP formula
     For i = 2 To lastRow
-        ws.Cells(i, "C").Formula = "=VLOOKUP(B" & i & ",'Items Cleaned'!$A$2:$B$100000,2,FALSE)" 'modify the formula as needed
+        'ws.Cells(i, "C").Formula = "=VLOOKUP(B" & i & ",'Items Cleaned'!$A$2:$B$100000,2,FALSE)" 'modify the formula as needed THIS IS WRONG, CALCULATE FOR NEW SKU DO NOT PASTE
         ws.Cells(i, "D").Formula = "=VLOOKUP(B" & i & ",'Items Cleaned'!$A$2:$C$100000,3,FALSE)" 'modify the formula as needed
         ws.Cells(i, "E").Formula = "=VLOOKUP(B" & i & ",'Items Cleaned'!$A$2:$D$100000,4,FALSE)" 'modify the formula as needed
         ws.Cells(i, "F").Formula = "=VLOOKUP(B" & i & ",'Items Cleaned'!$A$2:$E$100000,5,FALSE)" 'modify the formula as needed
