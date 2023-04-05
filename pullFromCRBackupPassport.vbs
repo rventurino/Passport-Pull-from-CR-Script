@@ -245,9 +245,7 @@ Application.DisplayAlerts = True
                 calculateSKUType
                 'Use MAX function to calculate the retail
                 CalcRetailPrice
-                'Cut and paste SKU w/ value above 13 to Invalid SKU
-                CutInvalidSKUs
-                'Calculate max value for retail price
+
 'Items Cleaned Sheet
 'Copy Columns from Items
 Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items").columns("A").Copy
@@ -313,8 +311,11 @@ Sheets("Duplicate SKU").Range("A1").PasteSpecial Paste:=xlPasteValues
         'Paste values to remove the VLOOKUP and preserve data
         Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items XREF").Range("A1:H100000").Copy
         Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Items XREF").Range("A1").PasteSpecial Paste:=xlPasteValues
-'Check linked items list, import if they exist, continue onward if they don't
-LinkedItemsWithErrorHandling
+
+                'Cut and paste SKU w/ LEN value above 13 from Items page to Invalid SKU page
+                CutInvalidSKUs
+                'Check linked items list, import if they exist, continue onward if they don't
+                LinkedItemsWithErrorHandling
 
 End Sub
 
@@ -352,6 +353,8 @@ Dim lastRow As String
 lastRow = ActiveSheet.Cells(rows.Count, "B").End(xlUp).row + 1
 Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Departments").Range("A2:C10000").SpecialCells(xlCellTypeConstants).Copy
 Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Department Resolve").Range("A" & lastRow).PasteSpecial Paste:=xlPasteValues
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Department Resolve").Range("A2:G10000").Copy
+Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Department Resolve").Range("A2:G10000").PasteSpecial Paste:=xlPasteValues
 HighlightDuplicates
 'fit UPC column to contents
 Workbooks("New Microsoft Excel Worksheet.xlsx").Worksheets("Department Resolve").columns("A:Z").AutoFit
